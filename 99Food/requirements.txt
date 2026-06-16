@@ -1,0 +1,13 @@
+# Automação
+pyautogui==0.9.53
+
+# Interface Gráfica
+tkinter  # Incluído no Python
+
+# Dados
+# (nenhuma dependência adicional para JSON)
+
+# Desenvolvimento (opcional)
+# pytest==7.4.0
+# black==23.9.0
+# flake8==6.1.0

@@ -1,11 +1,9 @@
 from services import criar_cardapio
 from services import cria_cardapioNEW
-from .services import painel_tkinter
 from services.painel_tkinter import PainelAutomacao
 from interfaces import interface
 from utils import coordenada
 
-from PIL import Image
 import sys
 import time
 

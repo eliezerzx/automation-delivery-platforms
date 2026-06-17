@@ -1,0 +1,7 @@
+# Automação de tela
+pyautogui==0.9.53
+pyperclip
+keyboard
+
+# Painel NiceGUI
+nicegui>=1.4.0

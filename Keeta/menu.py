@@ -1,4 +1,5 @@
 from services import criar_cardapio
+from painel import painel_nicegui
 from interfaces import interface
 from utils import coordenada
 
@@ -45,9 +46,12 @@ while True:
         barra_carregamento()
         criar_cardapio.criaCardapio()
 
-    
+    # ---- Executa opção "2" para abrir o Painel NiceGUI
+    elif opcao == "2":
+        barra_carregamento("Abrindo Painel")
+        painel_nicegui.iniciar_painel()
 
-    
+
 
     # ---- Executa opção "9" para rodar coordenada.py
     elif opcao == "9":

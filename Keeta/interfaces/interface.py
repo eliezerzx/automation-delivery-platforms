@@ -11,8 +11,8 @@ def exibir_menu():
 ╠══════════════════════════════════════════════════════════════╣
 ║                                                              ║
 ║   [ GESTÃO DE CARDÁPIO ]                                     ║
-║    [1] Criar Novo Cardápio                                   ║
-║    [2] -                                                     ║
+║    [1] Criar Novo Cardápio (terminal)                        ║
+║    [2] Abrir Painel Visual (NiceGUI)                         ║
 ║    [3] -                                                     ║
 ║                                                              ║
 ║   [ FINANCEIRO / DESCONTOS ]                                 ║

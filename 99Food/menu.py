@@ -1,6 +1,7 @@
 from services import criar_cardapio
 from services import cria_cardapioNEW
 from services.painel_tkinter import PainelAutomacao
+from painel import painel_nicegui
 from interfaces import interface
 from utils import coordenada
 
@@ -55,6 +56,11 @@ while True:
     elif opcao == "3":
         app = PainelAutomacao()
         app.mainloop()
+
+    # ---- Executa opção "4" para abrir o Painel NiceGUI
+    elif opcao == "4":
+        barra_carregamento("Abrindo Painel")
+        painel_nicegui.iniciar_painel()
 
     # ---- Executa opção "9" para rodar coordenada.py
     elif opcao == "9":

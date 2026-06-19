@@ -1,1 +1,10 @@
---- Em Breve ---
+Coca-Cola Lata|Refrigerante gelado 350ml|8.00
+Guaraná Antarctica Lata|Refrigerante gelado 350ml|7.00
+Fanta Laranja Lata|Refrigerante gelado 350ml|7.00
+Água Mineral|Água sem gás 500ml|4.00
+Água com Gás|Água mineral com gás 500ml|5.00
+Suco de Laranja|Suco natural espremido 300ml|9.00
+Suco de Limão|Suco natural espremido 300ml|9.00
+Cerveja Heineken|Long neck 330ml gelada|12.00
+Cerveja Brahma|Long neck 330ml gelada|10.00
+Red Bull|Energético lata 250ml|14.00

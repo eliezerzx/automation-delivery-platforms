@@ -1,7 +1,18 @@
 {
-  "menu_opcoes": [1764, 655],
-  "btn_duplicar": [1716, 835],
-  "campo_nome": [310, 545],
-  "btn_enviar": [304, 999],
-  "_comentario": "Atualize estas coordenadas se a interface mudar. Execute: python -c \"import pyautogui; pyautogui.position()\" para obter coordenadas do mouse"
+  "menu_opcoes": [
+    1764,
+    655
+  ],
+  "btn_duplicar": [
+    1716,
+    835
+  ],
+  "campo_nome": [
+    310,
+    545
+  ],
+  "btn_enviar": [
+    304,
+    999
+  ]
 }

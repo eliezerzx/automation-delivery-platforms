@@ -15,19 +15,19 @@ from pathlib import Path
 from dataclasses import dataclass
 from typing import Optional, Tuple
 
+# --- Configuração de caminho ---
+root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
+
 # --- Configuração de logging ---
 logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.FileHandler('automacao.log'),
+        logging.FileHandler(os.path.join(root_path, 'logs', 'automacao.log')),
         logging.StreamHandler()
     ]
 )
 logger = logging.getLogger(__name__)
-
-# --- Configuração de caminho ---
-root_path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..'))
 if root_path not in sys.path:
     sys.path.append(root_path)
 
@@ -46,8 +46,10 @@ class Coordenadas:
     btn_enviar: Tuple[int, int]
 
     @classmethod
-    def carregar_config(cls, arquivo: str = 'config/coordenadas.json') -> 'Coordenadas':
+    def carregar_config(cls, arquivo: str = None) -> 'Coordenadas':
         """Carrega coordenadas de um arquivo JSON."""
+        if arquivo is None:
+            arquivo = os.path.join(root_path, 'config', 'coordenadas.json')
         try:
             with open(arquivo, 'r', encoding='utf-8') as f:
                 config = json.load(f)
@@ -263,13 +265,15 @@ class AutomacaoCardapio:
             pyautogui.alert(f"❌ ERRO:\n{str(e)}")
             return False
 
-    def executar_cardapio(self, caminho_arquivo: str = 'data/pizza.txt') -> None:
+    def executar_cardapio(self, caminho_arquivo: str = None) -> None:
         """
         Executa o processo completo de criação de cardápio.
 
         Args:
             caminho_arquivo: Caminho para arquivo de entrada
         """
+        if caminho_arquivo is None:
+            caminho_arquivo = os.path.join(root_path, 'data', 'pizza.txt')
         logger.info("Iniciando criação de cardápio...")
 
         sucesso = self.processar_arquivo_pizza(caminho_arquivo)
@@ -293,6 +297,9 @@ def main():
         logger.error(f"Erro fatal: {e}")
         som.som_erro()
 
+
+# Alias para compatibilidade com menu.py
+criaCardapio = main
 
 if __name__ == "__main__":
     main()

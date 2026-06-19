@@ -22,10 +22,16 @@ from nicegui import ui
 
 # ── Estado global ──────────────────────────────────────────────────────────
 state = {
-    'fase':      'parado',  # 'parado' | 'rodando' | 'pausado' | 'parando'
-    'arquivo':   os.path.join(DATA_PATH, 'pizza.txt'),
-    'delay_dup': 3.0,
-    'delay_env': 3.0,
+    'fase':         'parado',  # 'parado' | 'rodando' | 'pausado' | 'parando'
+    'arquivo':      os.path.join(DATA_PATH, 'pizza.txt'),
+    'delay_dup':    3.0,
+    'delay_env':    3.0,
+    # ── Métricas de tempo ──────────────────────────────────────────────────
+    'inicio_tempo': None,   # time.time() quando iniciou
+    'tempo_pausado': 0.0,   # total de segundos em pausa (descontado do elapsed)
+    'pausa_inicio': None,   # time.time() quando entrou em pausa
+    'itens_ok':     0,      # itens concluídos com sucesso
+    'itens_total':  0,      # total de itens no arquivo
 }
 
 stop_event  = threading.Event()
@@ -114,6 +120,7 @@ def _thread_automacao():
 
         _push('arquivo', f'{len(linhas)} itens encontrados em {os.path.basename(arquivo)}')
         _push('separador')
+        state['itens_total'] = len(linhas)
         time.sleep(1)
 
         adicionados = 0
@@ -178,10 +185,10 @@ def _thread_automacao():
                 pyautogui.press('tab')
 
                 # ⚠️  ALTERE (1537, 551) para o botão de editar preço
-                pyautogui.click(1537, 551, duration=0.1)  # <-- COORDENADA: botão editar preço
+                pyautogui.click(1535, 602, duration=0.1)  # <-- COORDENADA: botão editar preço
 
                 # ⚠️  ALTERE (812, 693) para o campo de preço
-                pyautogui.click(812, 693, duration=0.1)   # <-- COORDENADA: campo de preço
+                pyautogui.click(814, 742, duration=0.1)   # <-- COORDENADA: campo de preço
                 pyautogui.hotkey('ctrl', 'a')
                 pyautogui.press('backspace')
                 pyautogui.write(f'{preco_base:.2f}', interval=0.05)
@@ -193,7 +200,7 @@ def _thread_automacao():
 
                 # ── BOTÃO CONCLUIR ──────────────────────────────────
                 # ⚠️  ALTERE (1539, 819) para o botão "Concluir"
-                pyautogui.moveTo(1539, 819, duration=0.1)  # <-- COORDENADA: botão Concluir
+                pyautogui.moveTo(1533, 819, duration=0.1)  # <-- COORDENADA: botão Concluir
                 pyautogui.click()
 
                 # Sleep cancelável — para/pausa imediatamente se solicitado
@@ -213,6 +220,7 @@ def _thread_automacao():
 
                 _push('sucesso', f'"{nome}" adicionado com sucesso')
                 adicionados += 1
+                state['itens_ok'] = adicionados
 
             except Exception as e:
                 _push('erro', f'Erro no item {i}: {e}')
@@ -380,6 +388,22 @@ def iniciar_painel():
                     status_txt = ui.label('Aguardando comando...').style('font-size:14px; font-weight:500;')
                 status_badge = ui.badge('Parado', color='red')
 
+        # Card de métricas (tempo + itens/min)
+        with ui.card().classes('w-full').style('background:#0f172a; border:1px solid #1e293b;'):
+            with ui.row().classes('items-center gap-6 flex-wrap'):
+                with ui.row().classes('items-center gap-2'):
+                    ui.icon('timer', size='xs').style('color:#F97316')
+                    ui.label('Tempo:').style('font-size:13px; color:#6b7280;')
+                    tempo_lbl = ui.label('00:00').style('font-size:18px; font-weight:700; font-family:monospace; color:#fff;')
+                with ui.row().classes('items-center gap-2'):
+                    ui.icon('check_circle', size='xs').style('color:#22c55e')
+                    ui.label('Itens:').style('font-size:13px; color:#6b7280;')
+                    itens_lbl = ui.label('0').style('font-size:18px; font-weight:700; font-family:monospace; color:#22c55e;')
+                with ui.row().classes('items-center gap-2'):
+                    ui.icon('speed', size='xs').style('color:#F97316')
+                    ui.label('Média:').style('font-size:13px; color:#6b7280;')
+                    media_lbl = ui.label('—').style('font-size:18px; font-weight:700; font-family:monospace; color:#F97316;')
+
         # Botões de controle
         with ui.row().classes('gap-3 items-center flex-wrap'):
 
@@ -446,7 +470,23 @@ def iniciar_painel():
             except Exception:
                 pass
 
-        # Sincroniza badge e botões com state['fase']
+        # ── Atualiza métricas de tempo ──────────────────────────────────
+        if state['inicio_tempo'] is not None:
+            pausado_extra = 0.0
+            if state['fase'] == 'pausado' and state['pausa_inicio'] is not None:
+                pausado_extra = time.time() - state['pausa_inicio']
+            elapsed = time.time() - state['inicio_tempo'] - state['tempo_pausado'] - pausado_extra
+            elapsed = max(0.0, elapsed)
+            mins, secs = divmod(int(elapsed), 60)
+            tempo_lbl.set_text(f'{mins:02d}:{secs:02d}')
+
+            itens = state['itens_ok']
+            itens_lbl.set_text(str(itens))
+            if elapsed >= 5 and itens > 0:
+                media = itens / (elapsed / 60)
+                media_lbl.set_text(f'{media:.1f}/min')
+
+        # ── Sincroniza badge e botões com state['fase'] ─────────────────
         fase = state['fase']
         if fase == 'rodando':
             status_badge.props('color=orange'); status_badge.set_text('Rodando')
@@ -469,6 +509,15 @@ def iniciar_painel():
         stop_event.clear()
         pause_event.set()
         state['fase'] = 'rodando'
+        # Reseta métricas
+        state['inicio_tempo']  = time.time()
+        state['tempo_pausado'] = 0.0
+        state['pausa_inicio']  = None
+        state['itens_ok']      = 0
+        state['itens_total']   = 0
+        tempo_lbl.set_text('00:00')
+        itens_lbl.set_text('0')
+        media_lbl.set_text('—')
         btn_ini.disable()
         btn_pau.enable()
         btn_par.enable()
@@ -480,7 +529,7 @@ def iniciar_painel():
             # ── PAUSAR ──
             pause_event.clear()
             state['fase'] = 'pausado'
-            # Troca aparência do botão para "Retomar"
+            state['pausa_inicio'] = time.time()  # marca início da pausa
             btn_pau.classes(remove='btn-pause', add='btn-resume')
             btn_pau.clear()
             with btn_pau:
@@ -490,9 +539,11 @@ def iniciar_painel():
 
         elif state['fase'] == 'pausado':
             # ── RETOMAR ──
+            if state['pausa_inicio'] is not None:
+                state['tempo_pausado'] += time.time() - state['pausa_inicio']
+                state['pausa_inicio'] = None
             pause_event.set()
             state['fase'] = 'rodando'
-            # Volta aparência para "Pausar"
             btn_pau.classes(remove='btn-resume', add='btn-pause')
             btn_pau.clear()
             with btn_pau:

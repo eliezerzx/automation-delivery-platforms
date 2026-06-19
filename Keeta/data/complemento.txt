@@ -1,1 +1,57 @@
--- Em breve ---
+Pizza 1/2 Catupiry
+Pizza 1/2 Mussarela
+Pizza 1/2 2 Queijos
+Pizza 1/2 3 Queijos
+Pizza 1/2 4 Queijos
+Pizza 1/2 5 Queijos
+Pizza 1/2 Marguerita
+Pizza 1/2 Napolitana
+Pizza 1/2 Alho
+Pizza 1/2 Atum 1
+Pizza 1/2 Atum 2
+Pizza 1/2 Atum 3
+Pizza 1/2 Cecap
+Pizza 1/2 Peruana
+Pizza 1/2 Americana
+Pizza 1/2 Bacon
+Pizza 1/2 Siciliana
+Pizza 1/2 Portuguesa
+Pizza 1/2 Bauru
+Pizza 1/2 Labor
+Pizza 1/2 Moda da Casa 1
+Pizza 1/2 Moda da Casa 2
+Pizza 1/2 Napole
+Pizza 1/2 Calabresa
+Pizza 1/2 Calabria
+Pizza 1/2 Carioca
+Pizza 1/2 Paulista
+Pizza 1/2 Forneiro
+Pizza 1/2 do Motoboy
+Pizza 1/2 Imperial
+Pizza 1/2 Jova Rural
+Pizza 1/2 Baiana 1
+Pizza 1/2 Baiana 2
+Pizza 1/2 Toscana
+Pizza 1/2 Viena
+Pizza 1/2 Vila Nilo
+Pizza 1/2 Frango
+Pizza 1/2 Caipira
+Pizza 1/2 Abb
+Pizza 1/2 Chic
+Pizza 1/2 Nova Galvão
+Pizza 1/2 Vitória
+Pizza 1/2 Brócolis
+Pizza 1/2 Brócolis 2
+Pizza 1/2 Vila Galvão
+Pizza 1/2 Milho Verde
+Pizza 1/2 Palmito com Mussarela
+Pizza 1/2 Palmito com Catupiry
+Pizza 1/2 Vegetariana
+Pizza 1/2 Escarola
+Pizza 1/2 Francesa 1
+Pizza 1/2 Francesa 2
+Pizza 1/2 Lombo com Mussarela
+Pizza 1/2 Lombo com Catupiry
+Pizza 1/2 La Itália
+Pizza 1/2 Pepperoni
+Pizza 1/2 Peito de Peru

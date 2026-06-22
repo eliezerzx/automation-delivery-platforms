@@ -1,7 +1,22 @@
 {
-  "campo_nome":   [746, 407],
-  "editar_preco": [1537, 551],
-  "campo_preco":  [812, 693],
-  "concluir":     [1539, 819],
-  "enviar":       [1514, 971]
+  "campo_nome": [
+    771,
+    374
+  ],
+  "editar_preco": [
+    1482,
+    642
+  ],
+  "campo_preco": [
+    837,
+    766
+  ],
+  "concluir": [
+    1490,
+    847
+  ],
+  "enviar": [
+    1514,
+    971
+  ]
 }

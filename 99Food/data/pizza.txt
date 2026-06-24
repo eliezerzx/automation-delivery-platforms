@@ -1,9 +1,7 @@
-Esfiha De M&Ms | Creme De Avelã E M&Ms | 8,90
-Esfiha De Brigadeiro | Creme De Avelã E Granulado | 8,90
-Esfiha De Prestígio | Creme De Avelã E Coco Ralado | 8,90
-Esfiha De Romeu E Julieta | Queijo Com Goiabada | 8,90
-Esfiha De Paçoca | Creme De Paçoca E Paçoca | 7,90
-Esfiha De Banana C/ Doce De Leite | Banana Doce De Leite E Canela | 7,90
-Esfiha De Banana C/ Chocolate | Banana Creme De Avelã E Canela | 7,90
-Esfiha De Nutella | Nutella Com Granulado | 15,90
-Esfiha Labor Sensação | Creme De Avelã Coco Ralado E Morango | 7,90
+Combo 1 30 Esfihas + Coca 2l | 10 Carnes + 10 Queijos + Calabresa + Coca 2l | 129,90
+Combo 2 15 Esfihas + Dolly | Seleção De Carne Calabresa E Queijos + Guaraná Dolly | 90,90
+Combo 3 20 Esfihas + Dolly | Seleção De Carne E Queijo + Dolly 2l | 98,90
+Combo 4 28 Esfihas + Coca 2l | Queijo Carne Catupiry E Calabresa + Coca | 129,90
+Combo 5 10 Esfihas + Dolly | Queijo Carne E Calabresa + Dolly Grátis | 64,90
+Combo 6 15 Esfihas + Dolly | 5 Carnes + 5 Catupiry + 5 Calabresa + Dolly 2l | 90,90
+Combo 7 40 Esfihas + Dolly | Milho Carne Catupiry E Alho + Dolly | 168,90

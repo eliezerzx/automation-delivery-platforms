@@ -1,57 +1,12 @@
-Pizza Catupiry Broto (4 Pedaços) | Cobertura generosa do autêntico requeijão Catupiry cremoso sobre molho especial. | 39,90
-Pizza Mussarela Broto (4 Pedaços) | Molho especial, mussarela tradicional de alta qualidade, rodelas de tomate e orégano. | 39,90
-Pizza 2 Queijos Broto (4 Pedaços) | Combinação irresistível de mussarela derretida e requeijão cremoso na medida certa. | 39,90
-Pizza 3 Queijos Broto (4 Pedaços) | Deliciosa mistura de mussarela, requeijão cremoso e o toque marcante do provolone. | 39,90
-Pizza 4 Queijos Broto (4 Pedaços) | Mix perfeito de quatro queijos selecionados: mussarela, requeijão, provolone e parmesão. | 39,90
-Pizza 5 Queijos Broto (4 Pedaços) | Para os amantes de queijo: mussarela, requeijão, provolone, parmesão e gorgonzola. | 39,90
-Pizza Marguerita Broto (4 Pedaços) | Clássica combinação de mussarela, fatias de tomate fresco e folhas de manjericão. | 39,90
-Pizza Napolitana Broto (4 Pedaços) | Molho especial da casa, mussarela, rodelas de tomate e parmesão ralado gratinado. | 39,90
-Pizza Alho Broto (4 Pedaços) | Base de mussarela derretida salpicada com alho frito crocante e azeite de oliva. | 39,90
-Pizza Atum 1 Broto (4 Pedaços) | Atum sólido de primeira qualidade coberto com cebola fatiada e azeitonas. | 39,90
-Pizza Atum 2 Broto (4 Pedaços) | Suculento atum sólido coberto com uma camada generosa de mussarela derretida. | 39,90
-Pizza Atum 3 Broto (4 Pedaços) | Combinação perfeita de atum sólido com a cremosidade do requeijão Catupiry. | 39,90
-Pizza Cecap Broto (4 Pedaços) | Atum sólido selecionado com cobertura de requeijão cremoso, palmito e milho. | 39,90
-Pizza Peruana Broto (4 Pedaços) | Atum sólido combinado com ovos picados, cebola e uma camada de mussarela. | 39,90
-Pizza Americana Broto (4 Pedaços) | Deliciosa combinação de atum, palmito macio, milho verde, ovos e mussarela. | 39,90
-Pizza Bacon Broto (4 Pedaços) | Cubos de bacon crocante bem distribuídos sobre uma camada de mussarela derretida. | 39,90
-Pizza Siciliana Broto (4 Pedaços) | Mussarela, bacon em cubos crocantes e champignon fatiado temperado na chapa. | 39,90
-Pizza Portuguesa Broto (4 Pedaços) | Tradicional mistura de presunto, mussarela, ovos cozidos, ervilhas e cebola fatiada. | 39,90
-Pizza Bauru Broto (4 Pedaços) | Prática e saborosa combinação de presunto picado, mussarela e rodelas de tomate. | 39,90
-Pizza Labor Broto (4 Pedaços) | Presunto picado, ovos cozidos e palmito fatiado, tudo coberto com muita mussarela. | 39,90
-Pizza Moda da Casa 1 Broto (4 Pedaços) | Receita especial com presunto, calabresa fatiada, ovos, bacon e mussarela. | 39,90
-Pizza Moda da Casa 2 Broto (4 Pedaços) | Versão exclusiva com presunto, frango desfiado, palmito, bacon e requeijão cremoso. | 39,90
-Pizza Napole Broto (4 Pedaços) | Presunto picado e palmito fatiado cobertos com uma camada de requeijão Catupiry. | 39,90
-Pizza Calabresa Broto (4 Pedaços) | Clássica calabresa fatiada de primeira qualidade com cebola roxa e azeitonas pretas. | 39,90
-Pizza Calabria Broto (4 Pedaços) | Calabresa fatiada acebolada coberta com uma generosa camada de mussarela derretida. | 39,90
-Pizza Carioca Broto (4 Pedaços) | Saborosa calabresa fatiada combinada com palmito macio e cobertura de mussarela. | 39,90
-Pizza Paulista Broto (4 Pedaços) | Calabresa fatiada acebolada combinada com palmito e requeijão cremoso Catupiry. | 39,90
-Pizza Forneiro Broto (4 Pedaços) | Calabresa fatiada, ovos cozidos, pimenta picante e uma cobertura de mussarela. | 39,90
-Pizza do Motoboy Broto (4 Pedaços) | Homenagem da casa: calabresa moída, ovos, bacon crocante, palmito e mussarela. | 39,90
-Pizza Imperial Broto (4 Pedaços) | Calabresa moída temperada, palmito fatiado, bacon em cubos e requeijão cremoso. | 39,90
-Pizza Jova Rural Broto (4 Pedaços) | Sabor marcante de calabresa moída com milho verde e cobertura de mussarela. | 39,90
-Pizza Baiana 1 Broto (4 Pedaços) | Calabresa moída bem temperada com ovos, cebola fatiada e pimenta calabresa. | 39,90
-Pizza Baiana 2 Broto (4 Pedaços) | Calabresa moída e temperada com pimenta, coberta com uma camada de mussarela. | 39,90
-Pizza Toscana Broto (4 Pedaços) | Tradicional calabresa moída acebolada coberta com requeijão cremoso tipo Catupiry. | 39,90
-Pizza Viena Broto (4 Pedaços) | Calabresa moída combinada com requeijão cremoso, lombo fatiado e bacon crocante. | 39,90
-Pizza Vila Nilo Broto (4 Pedaços) | Delicioso mix de calabresa moída com champignon fatiado e queijo mussarela. | 39,90
-Pizza Frango Broto (4 Pedaços) | Peito de frango desfiado e bem temperado coberto com queijo mussarela derretido. | 39,90
-Pizza Caipira Broto (4 Pedaços) | Frango desfiado temperado, milho verde selecionado e requeijão Catupiry. | 39,90
-Pizza Abb Broto (4 Pedaços) | Frango desfiado suculento combinado com palmito fatiado e cobertura de mussarela. | 39,90
-Pizza Chic Broto (4 Pedaços) | Frango desfiado, bacon crocante em cubos e requeijão cremoso de alta qualidade. | 39,90
-Pizza Nova Galvão Broto (4 Pedaços) | Combinação de frango desfiado, ovos picados, milho e queijo mussarela. | 39,90
-Pizza Vitória Broto (4 Pedaços) | Frango desfiado, milho verde tenro, palmito fatiado, bacon e queijo mussarela. | 39,90
-Pizza Brócolis Broto (4 Pedaços) | Brócolis fresco cozido no vapor e temperado, coberto com queijo mussarela. | 39,90
-Pizza Brócolis 2 Broto (4 Pedaços) | Brócolis temperado com alho, bacon crocante em cubos e requeijão cremoso. | 39,90
-Pizza Vila Galvão Broto (4 Pedaços) | Brócolis selecionado, palmito macio fatiado, milho e cobertura de mussarela. | 39,90
-Pizza Milho Verde Broto (4 Pedaços) | Base de mussarela derretida coberta com bastante milho verde tenro e docinho. | 39,90
-Pizza Palmito com Mussarela Broto (4 Pedaços) | Palmito em rodelas macias e selecionadas sob uma camada de mussarela. | 39,90
-Pizza Palmito com Catupiry Broto (4 Pedaços) | Palmito fatiado combinado perfeitamente com a cremosidade do Catupiry original. | 39,90
-Pizza Vegetariana Broto (4 Pedaços) | Opção leve com palmito, milho verde, ervilhas, tomate e cobertura de mussarela. | 39,90
-Pizza Escarola Broto (4 Pedaços) | Escarola refogada e temperada na medida, coberta com mussarela e bacon crocante. | 39,90
-Pizza Francesa 1 Broto (4 Pedaços) | Delicioso lombo canadense fatiado e coberto com queijo mussarela derretido. | 39,90
-Pizza Francesa 2 Broto (4 Pedaços) | Lombo canadense fatiado acompanhado de cebola e requeijão cremoso Catupiry. | 39,90
-Pizza Lombo com Mussarela Broto (4 Pedaços) | Lombo fatiado defumado coberto com uma camada generosa de mussarela. | 39,90
-Pizza Lombo com Catupiry Broto (4 Pedaços) | Lombo defumado fatiado combinado com o legítimo requeijão Catupiry original. | 39,90
-Pizza La Itália Broto (4 Pedaços) | Lombo fatiado, champignon temperado, bacon em cubos e cobertura de mussarela. | 39,90
-Pizza Pepperoni Broto (4 Pedaços) | Fatias selecionadas de pepperoni condimentado sobre uma base de queijo mussarela. | 39,90
-Pizza Peito de Peru Broto (4 Pedaços) | Peito de peru defumado light fatiado e coberto com requeijão cremoso Catupiry. | 39,90
+Açai Labor Caixa 1l | Açaí Cremoso Sabor Intenso | 31,90
+05 Caixas Açai Labor 1l | Açaí Cremoso — 5 Caixas De 1 Litro | 129,90
+Açai Labor Caixa 2l | Açaí Cremoso Sabor Intenso | 44,90
+01 Caixa Açai Labor 5 Litros | Açaí Cremoso Fácil De Bolear | 90,90
+05 Caixas 5 Litros | 5 Caixas De Açaí Labor De 5 Litros | 428,90
+Açai Labor 10 Litros | Açaí Cremoso Fácil De Bolear Com Guaraná | 155,90
+2 Caixas Açai Labor 10 Litros | 2 Caixas De Açaí Labor De 10 Litros — Agende Com 30h De Antecedência | 298,90
+03 Caixas Açai Labor 10 Litros | 3 Caixas De Açaí Labor De 10 Litros — Agende Com 24h De Antecedência | 441,90
+04 Caixas Açai Labor 10 Litros | 4 Caixas De Açaí Labor De 10 Litros | 597,90
+05 Caixas Açai Labor 10 Litros | 5 Caixas De Açaí Labor De 10 Litros | 714,90
+07 Caixas Açai Labor 10 Litros | 7 Caixas De Açaí Labor De 10 Litros | 1000,90
+10 Caixas Açai Labor 10 Litros | 10 Caixas De Açaí Labor De 10 Litros | 1299,90

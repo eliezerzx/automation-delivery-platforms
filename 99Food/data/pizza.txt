@@ -1,7 +1,21 @@
-Açai Labor Popular 1l | Açaí Cremoso Saboroso | 31,90
-Açai Labor De 2l | Açaí Cremoso Fácil De Bolear | 44,90
-Açaí Labor De 5l | Açaí Cremoso Fácil De Bolear | 90,90
-Cupuaçu De 10l | Cupuaçu Delicioso Saboroso Fácil De Bolear | 122,90
-Cupuaçu Labor 2 Litros | Cupuaçu Cremoso Saboroso | 44,90
-Sorvete Labor Flocos 2 Litros | Sorvete De Flocos Textura Macia Sabor Intenso | 47,90
-Sorvete Labor 2 Litros Frutas Vermelhas | Sorvete Cremoso De Frutas Vermelhas | 47,90
+```
+Picolé De Manga | Picolé Feito Com Manga | 2,90
+Picolé De Maracujá | Sabor Intenso E Refrescante | 2,90
+Picolé De Chiclete | Derrete Na Boca Nostálgico | 2,90
+Picolé De Musse De Maracujá | Musse Com Maracujá Intenso | 2,90
+Picolé De Coco Branco | Cremoso Sabor Natural De Coco | 2,90
+Picolé De Leite Condensado | Doçura Suave E Refrescante | 2,90
+Picolé De Flocos | Pedaços Crocantes De Chocolate | 2,90
+Picolé De Limão Suiço | Azedinho Com Doçura Na Medida | 2,90
+Picolé De Morango | Explode O Sabor Do Morango | 2,90
+Picolé De Milho Verde | Doce E Cremoso | 2,90
+Picolé De Goiaba | Sabor Intenso De Goiaba Tropical | 2,90
+Picolé De Abacaxi | Doçura Natural Do Abacaxi | 2,90
+Picolé De Açai | Sabor Vibrante De Açaí | 2,90
+Picolé De Chocolate | Cremoso Sabor Marcante | 2,90
+Picolé De Blue Ice | Sabor Vibrante E Gelado | 2,90
+Picolé De Groselha | Explode Em Sabor De Groselha | 2,90
+Picolé De Uva | Doçura E Frescor De Uva | 2,90
+Picolé De Amendoim | Sabor Marcante De Amendoim | 2,90
+Picolé De Leite Ninho | Cremoso Sabor Doce E Reconfortante | 2,90
+```

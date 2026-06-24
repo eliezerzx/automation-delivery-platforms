@@ -1,10 +1,4 @@
-Coca-Cola 2l | Refrigerante Coca-Cola Garrafa 2 Litros | 17,90
-Coca Cola 1,5l | Refrigerante Coca-Cola Garrafa 1,5 Litros | 14,90
-Coca-Cola 600ml | Refrigerante Coca-Cola Garrafa 600ml | 11,90
-Guaraná Antártica 2l | Refrigerante Guaraná Antártica Garrafa 2 Litros | 17,90
-Guaraná Antartica 1,5l | Refrigerante Guaraná Antártica Garrafa 1,5 Litros | 12,90
-Guaraná Antartica 600ml | Refrigerante Guaraná Antártica Garrafa 600ml | 10,90
-Sukita Laranja 2l | Refrigerante Sukita Laranja Garrafa 2 Litros | 12,90
-Dolly Guaraná 2l | Refrigerante Dolly Guaraná Garrafa 2 Litros | 11,90
-Dolly Limão 2l | Refrigerante Dolly Limão Garrafa 2 Litros | 11,90
-Sukita Limão 2l | Refrigerante Sukita Limão Garrafa 2 Litros | 12,90
+Schweppes | Refrigerante Schweppes Lata | 7,90
+Fanta Uva | Refrigerante Fanta Uva Lata | 7,90
+Água S/Gás | Água Mineral Sem Gás | 4,90
+Água C/ Gás | Água Mineral Com Gás | 5,90

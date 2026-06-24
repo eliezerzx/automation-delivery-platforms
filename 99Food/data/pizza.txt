@@ -1,20 +1,9 @@
-Esfiha De Frango C/ Bacon | Frango Com Bacon Em Fatias | 8,90
-Esfiha De Frango C/ Catupiry | Frango Com Catupiry Original | 8,90
-Esfiha De Frango C/ Cheddar | Frango Com Cheddar | 8,90
-Esfiha De Carne | Carne Com Tomate E Cebola | 3,90
-Esfiha De Carne Com Queijo | Carne Com Mussarela | 8,90
-Esfiha De Calabresa | Calabresa Moída Temperada | 3,90
-Esfiha De Calabresa Com Queijo | Calabresa Com Mussarela | 8,90
-Esfiha De Atum | Atum Cebola E Mussarela | 8,90
-Esfiha Bauru | Presunto Tomate Coberto Com Queijo | 8,90
-Esfiha De Brócolis | Brócolis Com Mussarela E Bacon | 8,90
-Esfiha De Queijo Com Palmito | Palmito E Mussarela | 8,90
-Esfiha De Escarola | Escarola Queijo E Bacon | 8,90
-Esfiha De Catupiry | Catupiry Original | 5,90
-Esfiha De Milho | Mussarela E Milho Verde | 5,90
-Esfiha De Queijo | Queijo Mussarela | 5,90
-Esfiha Dois Queijo | Mussarela Com Catupiry Original | 8,90
-Esfiha Três Queijos | Mussarela Catupiry E Parmesão | 9,90
-Esfiha Quatro Queijos | Mussarela Catupiry Provolone E Parmesão | 10,90
-Esfiha Cinco Queijos | Mussarela Catupiry Provolone Parmesão E Gorgonzola | 15,90
-Esfiha De Alho | Alho Frito Com Mussarela | 5,90
+Esfiha De M&Ms | Creme De Avelã E M&Ms | 8,90
+Esfiha De Brigadeiro | Creme De Avelã E Granulado | 8,90
+Esfiha De Prestígio | Creme De Avelã E Coco Ralado | 8,90
+Esfiha De Romeu E Julieta | Queijo Com Goiabada | 8,90
+Esfiha De Paçoca | Creme De Paçoca E Paçoca | 7,90
+Esfiha De Banana C/ Doce De Leite | Banana Doce De Leite E Canela | 7,90
+Esfiha De Banana C/ Chocolate | Banana Creme De Avelã E Canela | 7,90
+Esfiha De Nutella | Nutella Com Granulado | 15,90
+Esfiha Labor Sensação | Creme De Avelã Coco Ralado E Morango | 7,90

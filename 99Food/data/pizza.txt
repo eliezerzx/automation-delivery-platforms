@@ -1,21 +1,20 @@
-```
-Picolé De Manga | Picolé Feito Com Manga | 2,90
-Picolé De Maracujá | Sabor Intenso E Refrescante | 2,90
-Picolé De Chiclete | Derrete Na Boca Nostálgico | 2,90
-Picolé De Musse De Maracujá | Musse Com Maracujá Intenso | 2,90
-Picolé De Coco Branco | Cremoso Sabor Natural De Coco | 2,90
-Picolé De Leite Condensado | Doçura Suave E Refrescante | 2,90
-Picolé De Flocos | Pedaços Crocantes De Chocolate | 2,90
-Picolé De Limão Suiço | Azedinho Com Doçura Na Medida | 2,90
-Picolé De Morango | Explode O Sabor Do Morango | 2,90
-Picolé De Milho Verde | Doce E Cremoso | 2,90
-Picolé De Goiaba | Sabor Intenso De Goiaba Tropical | 2,90
-Picolé De Abacaxi | Doçura Natural Do Abacaxi | 2,90
-Picolé De Açai | Sabor Vibrante De Açaí | 2,90
-Picolé De Chocolate | Cremoso Sabor Marcante | 2,90
-Picolé De Blue Ice | Sabor Vibrante E Gelado | 2,90
-Picolé De Groselha | Explode Em Sabor De Groselha | 2,90
-Picolé De Uva | Doçura E Frescor De Uva | 2,90
-Picolé De Amendoim | Sabor Marcante De Amendoim | 2,90
-Picolé De Leite Ninho | Cremoso Sabor Doce E Reconfortante | 2,90
-```
+10 Pacotes Com 10 Unidades | 100 Picolés Com Sabores À Escolha | 194,90
+10 Picolés Leite Condensado | Pacote Com 10 Picolés De Leite Condensado | 18,90
+10 Picolés Abacaxi | Pacote Com 10 Picolés De Abacaxi | 18,90
+10 Picolés Manga | Pacote Com 10 Picolés De Manga | 18,90
+10 Picolés Maracujá | Pacote Com 10 Picolés De Maracujá | 18,90
+10 Picolés Chiclete | Pacote Com 10 Picolés De Chiclete | 18,90
+10 Picolés Musse De Maracujá | Pacote Com 10 Picolés De Musse De Maracujá | 18,90
+10 Picolés Coco Branco | Pacote Com 10 Picolés De Coco Branco | 18,90
+10 Picolés Flocos | Pacote Com 10 Picolés De Flocos | 18,90
+10 Picolés Limão Suiço | Pacote Com 10 Picolés De Limão Suiço | 18,90
+10 Picolés Morango | Pacote Com 10 Picolés De Morango | 18,90
+10 Picolés Milho Verde | Pacote Com 10 Picolés De Milho Verde | 18,90
+10 Picolés Goiaba | Pacote Com 10 Picolés De Goiaba | 18,90
+10 Picolés Açai | Pacote Com 10 Picolés De Açaí | 18,90
+10 Picolés Chocolate | Pacote Com 10 Picolés De Chocolate | 18,90
+10 Picolés Blue Ice | Pacote Com 10 Picolés De Blue Ice | 18,90
+10 Picolés Groselha | Pacote Com 10 Picolés De Groselha | 18,90
+10 Picolés Uva | Pacote Com 10 Picolés De Uva | 18,90
+10 Picolés Amendoim | Pacote Com 10 Picolés De Amendoim | 18,90
+10 Picolés Leite Ninho | Pacote Com 10 Picolés De Leite Ninho | 18,90

@@ -2,3 +2,7 @@ Schweppes | Refrigerante Schweppes Lata | 7,90
 Fanta Uva | Refrigerante Fanta Uva Lata | 7,90
 Água S/Gás | Água Mineral Sem Gás | 4,90
 Água C/ Gás | Água Mineral Com Gás | 5,90
+Skol Lata 269ml | Cerveja Skol Lata 269ml | 3,90
+Skol Lata 550ml | Cerveja Skol Lata 550ml | 6,90
+Itaipava Lata 350ml | Cerveja Itaipava Lata 350ml | 3,90
+Itaipava Lata 550ml | Cerveja Itaipava Lata 550ml | 6,90

@@ -1,0 +1,19 @@
+Coca-Cola lata 350ml
+Fanta Laranja lata 350ml
+Guaraná Antarctica Zero lata 350ml
+Sprite lata 350ml
+Fanta Uva lata 350ml
+Coca-Cola 600ml
+Coca-Cola Zero 600ml
+Fanta Laranja 600ml
+Guaraná Antarctica 600ml
+Coca-Cola 1L
+Coca-Cola Zero 1L
+Coca-Cola 2L
+Coca-Cola Zero 2L
+Fanta Laranja 2L
+Fanta Uva 2L
+Sprite 2L
+Água sem gás 510ml
+Água com gás 510ml
+Heineken Long Neck 330ml

@@ -1,0 +1,122 @@
+{
+    "btn_adicionarGrupo_produto": {
+    "x": 1302,
+    "y": 493
+  },
+  "btn_criarNovoGrupo_complemento": {
+    "x": 1380,
+    "y": 325
+  },
+  "btn_continuar_complemento":{
+    "x": 1821,
+    "y": 976
+  },
+  "btn_ingredientes_complemento":{
+    "x": 1400,
+    "y": 403
+  },
+  "campo_nomeGrupo_complemento":{
+    "x": 1373, 
+    "y": 411
+  },
+  "campo_qtdMinima_complemento":{
+    "x": 1689, 
+    "y": 512
+  },
+  "campo_qtdMaxima_complemento":{
+    "x": 1867, 
+    "y": 516
+  },
+  "btn_criarNovoComplemento_complemento":{
+    "x":1348,
+    "y":447
+  },
+  "btn_selecionarTipo_complemento":{
+    "x":1333,
+    "y":514
+  },
+  "btn_selecionar_ingrediente":{
+    "x":1339,
+    "y": 417
+  },
+  "campo_nome_complemento":{
+    "x":1339,
+    "y": 603
+  },
+  "campo_descricao_complemento":{
+    "x":1380,
+    "y":794
+  },
+  "campo_preco_complemento":{
+    "x":1558,
+    "y":783
+  },
+  "btn_adicionarAoGrupo_complemento":{
+    "x":1766,
+    "y":872
+  },
+  "btn_concluir_grupo_complemento":{
+    "x": 1821,
+    "y": 976
+  },
+  "btn_3Pontos_0_lista":{
+    "x":1663,
+    "y":560
+  },
+  "btn_3Pontos_1_lista":{
+    "x":1666,
+    "y":631
+  },
+  "btn_3Pontos_2_lista":{
+    "x":1541,
+    "y":651
+  },
+  "btn_3Pontos_3_lista":{
+    "x":1655,
+    "y":654
+  },
+  "btn_3Pontos_n1_lista":{
+    "x":1546,
+    "y":650
+  },
+  "btn_3Pontos_n2_lista":{
+    "x":1546,
+    "y":650
+  },
+  "btn_confirmar_duplicar_lista":{
+    "x":1138,
+    "y":674
+  },
+  "campo_preco_lista":{
+    "x":1537,
+    "y": 0
+  },
+  "campo_descricao_criar_produto": {
+    "x": 1031,
+    "y": 663
+  },
+  "campo_nome_criar_produto": {
+    "x": 677,
+    "y": 544
+  },
+  "btn_prosseguir_produto": {
+    "x": 1840,
+    "y": 986
+  },
+  "texto_nome_categoria_criar_produto": {
+    "x": 1236,
+    "y": 708
+  },
+  "campo_preco_criar_produto": {
+    "x": 1289,
+    "y": 417
+  },
+  "campo_desconto_criar_produto": {
+    "x": 1063,
+    "y": 688
+  },
+  "texto_nome_produto": {
+    "x": 0,
+    "y": 0
+  }
+}

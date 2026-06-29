@@ -1,0 +1,4 @@
+Arquivo para desevolvimento, que irá reunir todas necessidades não prioritárias do sistema
+* Log de erros <- Irá mostrar onde o erro ocorreu e quando
+* Interface que permite a mescla ds funções
+* Integração da Verificação de erros

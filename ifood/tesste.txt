@@ -1,0 +1,203 @@
+Pizza Mussarela xxxxxxxxxx
+Mussarela de primeira qualidade
+
+Pizza Dois Queijosx xxxxxxxxxxxxxxxxx
+Mussarela e catupiry 
+
+Pizza Três Queijos xxxxxxxxxxxx
+Mussarela, catupiry e provolone
+
+Pizza Quatro Queijos xxxxxxxxxxxxxx
+Mussarela, catupiry, provolone e parmesão
+
+Pizza Cinco Queijos xxxxxxxxxx
+Mussarela, catupiry, provolone, parmesão e gorgonzola
+
+Pizza Marguerita 1 xxxxxxxxxx
+Mussarela, manjericão, tomate e parmesão
+
+Pizza Marguerita com Pepperoni xxxxxxxxxxx
+Mussarela, manjericão, pepperoni, tomate e parmesão
+
+Pizza Tomate Seco xxxxxxxxx
+Mussarela, alho poró, parmesão e tomate seco
+
+Pizza Napolitana xxxxxxxxx
+Mussarela, tomate e parmesão
+
+Pizza Alho xxxxxxxxxxxxx
+Mussarela, parmesão e alho frito
+
+Pizza Frango com Cream Cheese xxxxxxxxxx
+Frango, milho, cream cheese e bacon
+
+Pizza Caipira xxxxxxxxxxxx
+Frango, palmito e mussarela
+
+Pizza Carijó xxxxxxxxxxxx
+Frango, ervilha, milho e mussarela
+
+Pizza Camburi xxxxxxxxx
+Frango, bacon, palmito e catupiry
+
+Pizza Frango com Catupiry xxxxxxxxx
+Frango e catupiry
+
+Pizza Frango com Brócolis xxxxxxxxxx
+Frango, brócolis, bacon e mussarela
+
+Pizza Frangolino xxxxxxxxxxx
+Frango, tomate, milho, creme de leite e catupiry
+
+Pizza Mista xxxxxxxxxxxxx
+Presunto, frango, mussarela e calabresa
+
+Pizza Calabresa com Cream Cheese xxxxxxxx
+Calabresa, cebola e cream cheese
+
+Pizza Clássica xxxxxx
+Calabresa fatiada, cebola e mussarela
+
+Pizza Baiacatu xxxxxxxxx
+Calabresa fatiada, cebola e catupiry
+
+Pizza Baiana I xxxxxxxxxx
+Calabresa moída, ovos, cebola e molho de pimenta
+
+Pizza Baiana Especial I xxxxxxx
+Calabresa moída, ovos, cebola e mussarela
+
+Pizza Calabresa xxxxxxxxxx
+Calabresa fatiada e cebola
+
+Pizza Do Pizzaiolo xxxxxx
+Calabresa fatiada, milho, ervilha, ovos, cebola e mussarela
+
+Pizza À Moda do Dom xxxxxxx
+Calabresa fatiada, palmito, bacon e mussarela
+
+Pizza Monalisa xxxxxxxxx
+Calabresa moída, bacon, mussarela, fatias de tomate e alho
+
+Pizza Toscana xxxxxxxxxx
+Calabresa moída e mussarela
+
+Pizza Lombo xxxxxxxxxx
+Lombo, cebola e mussarela
+
+Pizza Veneza xxxxxxxxxxxxx
+Lombo, champignon, catupiry e mussarela
+
+Pizza À Moda do Chef xxxxxxxxxxxx
+Presunto, lombo, bacon, mussarela e parmesão
+
+Pizza Canadense xxxxxxxx
+Lombo, bacon, catupiry e tomate
+
+Pizza Atum 1 xxxxx
+Atum sólido e cebola
+
+Pizza Atum com Mussarela xxxxxx
+Atum sólido, cebola e mussarela
+
+Pizza Felithe xxxxxxxx
+Atum sólido, palmito, ovo, cebola e catupiry
+
+Pizza Americana xxxxxx
+Atum sólido, palmito, ovo, cebola e mussarela
+
+Pizza Brigadeiro xxxxxxxx
+Chocolate cremoso e granulado
+
+Pizza Prestígio xxxxxxx
+Chocolate cremoso e coco ralado
+
+Pizza Nutella xxxxxx
+Nutella e morango
+
+Pizza Nutella com Banana xxxxxx
+Nutella e banana
+
+Pizza Tentação xxxxxx
+Banana e chocolate cremoso
+
+Pizza Morango xxxxxxxx
+Morango, chocolate, leite condensado e granulado
+
+Pizza Nutella e Confete xxxxxxxxxx
+Nutella e confete
+
+Pizza Banana Show xxxxxxxxx
+Banana e chocolate branco
+
+Pizza Banana Nevada xxxxxxxxxx
+Banana e chocolate branco ao forno
+
+Pizza Boa Idéia xxxxxxxxxxxx
+Escolha 5 recheios (ingredientes)
+
+Pizza Cicarelli xxxxxx
+Carne seca, palmito, ovos, cebola e mussarela
+
+Pizza Nordestina xxxxxxxx
+Carne seca, calabresa moída, bacon, cebola e molho de pimenta
+
+Pizza Pernambucana xxxxxxxxxxx
+Carne seca desfiada, cebola, tomate e catupiry
+
+Pizza Verão xxxxx
+Carne seca, brócolis e mussarela
+
+Pizza Francesa Especial xxxxxxxxxx
+Peito de peru, palmito, ervilha, catupiry e tomate
+
+Pizza Romana xxxxxxxxxxx
+Peito de peru, champignon, cebola e catupiry
+
+Pizza Vienna xxxxxxxxxx
+Peito de peru, bacon e mussarela
+
+Pizza Nova Bacana xxxxxxxxxxxx
+Peito de peru, brócolis, mussarela e alho frito
+
+Pizza Baurú xxxxxxxx
+Presunto, tomate e mussarela
+
+Pizza Bacon xxxxxx
+Mussarela, bacon, ovo e cebola
+
+Pizza Portuguesa xxxx
+Presunto, ovo, cebola, ervilha e mussarela
+
+Pizza Pepperoni xxxxxxxxxx
+Mussarela, pepperoni e parmesão
+
+Pizza Vegetariana xxxxxxx
+Brócolis, ervilha, milho, palmito e mussarela
+
+Pizza Larica xxxxxxxxxxx
+Presunto, palmito, bacon, mussarela e milho
+
+Pizza Brócolis xxxxxxxxxxx
+Brócolis, palmito, bacon e mussarela
+
+Pizza Brócolis Especial xxxxxxx
+Brócolis, cream cheese e bacon
+
+Pizza Champignon xxxx
+Champignon, presunto, cebola e mussarela
+
+Pizza Champignon Especial xxxxxxxxxxx
+Champignon, palmito, mussarela e tomate seco
+
+Pizza Palmito xxxxxxxx
+Palmito e mussarela
+
+Pizza Tuto Buono xxxxxxx
+Brócolis, bacon, catupiry e alho
+
+Pizza Milho xxxxxxxxxxx
+Milho e catupiry
+
+Pizza Philadelphia
+Peito de peru, cream cheese, alho poró e parmesão

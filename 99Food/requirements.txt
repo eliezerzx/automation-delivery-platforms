@@ -1,13 +1,16 @@
-# Automação
-pyautogui==0.9.53
+# Automação de tela
+pyautogui==0.9.54
+pyperclip==1.9.0
+keyboard==0.13.5
 
-# Interface Gráfica
-tkinter  # Incluído no Python
+# Painel NiceGUI
+nicegui>=1.4.0
 
-# Dados
-# (nenhuma dependência adicional para JSON)
-
-# Desenvolvimento (opcional)
-# pytest==7.4.0
-# black==23.9.0
-# flake8==6.1.0
+# Utilitários de imagem (dependência do pyautogui)
+Pillow>=10.0.0
+MouseInfo>=0.1.3
+PyGetWindow>=0.0.9
+PyMsgBox>=2.0.1
+pyRect>=0.2.0
+PyScreeze>=1.0.1
+pytweening>=1.2.0

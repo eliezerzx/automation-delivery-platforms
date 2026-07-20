@@ -121,6 +121,8 @@ def _sleep_cancelavel(segundos: float) -> bool:
 
 # ── Thread de automação ────────────────────────────────────────────────────
 def _thread_automacao():
+
+    # -- [IMPORTS] Módulos necessários para automação (mouse, clipboard) ----
     try:
         from utils import som
     except Exception:
@@ -128,6 +130,8 @@ def _thread_automacao():
     try:
         import pyautogui, pyperclip
         pyautogui.PAUSE = 0.3
+
+        # -- [INIT] Lê o arquivo e conta os itens ---------------------------
         arquivo = state['arquivo']
         _push('separador')
         _push('inicio', 'Iniciando automação 99Food...')
@@ -140,8 +144,12 @@ def _thread_automacao():
         _push('separador')
         state['itens_total'] = len(linhas)
         time.sleep(1)
+
+        # -- [LOOP] Processa cada item do arquivo ---------------------------
         adicionados = falhados = 0
         for i, linha in enumerate(linhas, 1):
+
+            # -- [PAUSA/PARADA] Verifica eventos de controle antes do item --
             if stop_event.is_set():
                 _push('parada', 'Automação interrompida.'); break
             if not pause_event.is_set():
@@ -150,6 +158,7 @@ def _thread_automacao():
                     _push('parada', 'Parado durante pausa.'); break
                 _push('retomada', 'Retomando...')
             try:
+                # -- [PARSE] Divide linha em nome | descricao | preco -------
                 partes = linha.strip().split('|')
                 if len(partes) != 3:
                     _push('aviso', f'Linha {i} inválida'); falhados += 1; continue
@@ -158,39 +167,58 @@ def _thread_automacao():
                 descricao = descricao.strip() + ' Foto Ilustrativa.'
                 preco     = float(preco_txt.strip().replace(',', '.'))
                 _push('item', f'[{i}/{len(linhas)}] {nome} — R$ {preco:.2f}')
+
+                # -- [DUPLICAR] Abre menu (3 pontos) e clica em Duplicar ---
                 pyautogui.press('home')
                 pyautogui.click(*state['menu_opcoes'], duration=0.1); time.sleep(0.2)
                 pyautogui.click(*state['btn_duplicar'], duration=0.1)
                 if not _sleep_cancelavel(state['delay_dup']):
                     _push('parada', 'Parado no delay duplicação.'); break
+
+                # -- [COMBO] Define produto como combo (descomente p/ ativar)
+                # pyautogui.click(899, 426); time.sleep(1.0)
+
+                # -- [NOME] Cola nome no campo via clipboard ----------------
+                pyperclip.copy(nome)
                 pyautogui.click(*state['campo_nome'], duration=0.1)
-                pyautogui.hotkey('ctrl', 'a'); pyperclip.copy(nome); pyautogui.hotkey('ctrl', 'v')
+                pyautogui.hotkey('ctrl', 'a')
+                pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.5)
-                for _ in range(2): pyautogui.press('tab'); time.sleep(0.1)
+
+                # -- [DESCRIÇÃO] 1 tab → preenche descrição ----------------
+                for _ in range(1): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.hotkey('ctrl', 'a'); pyautogui.press('backspace')
                 pyperclip.copy(descricao); pyautogui.hotkey('ctrl', 'v'); time.sleep(0.2)
-                for _ in range(5): pyautogui.press('tab'); time.sleep(0.1)
+
+                # -- [PREÇO] 1 tab → preenche preço ------------------------
+                for _ in range(1): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.hotkey('ctrl', 'a'); pyautogui.press('backspace')
                 pyperclip.copy(f'{preco:.2f}'); pyautogui.hotkey('ctrl', 'v'); time.sleep(0.5)
+
+                # -- [ENVIAR] Clica botão enviar e aguarda delay ------------
                 pyautogui.moveTo(*state['btn_enviar'], duration=0.1); pyautogui.click()
                 if not _sleep_cancelavel(state['delay_env']):
                     _push('parada', 'Parado no delay envio.'); break
                 _push('sucesso', f'"{nome}" adicionado')
                 adicionados += 1; state['itens_ok'] = adicionados
+
             except Exception as e:
                 _push('erro', f'Erro item {i}: {e}'); falhados += 1
+
+        # -- [RESUMO] Exibe resultado e dispara som de conclusão ------------
         _push('separador')
         _push('resumo', f'Concluído — {adicionados} adicionados  {falhados} falhados')
         _push('separador')
-        # notificação de conclusão
         if not stop_event.is_set():
             notif_queue.put(('sucesso' if falhados == 0 else 'aviso', adicionados, falhados))
         if som:
             if falhados == 0 and adicionados > 0: som.som_sucesso()
             elif falhados > 0: som.som_erro()
+
     except Exception as e:
         _push('erro', f'Erro fatal: {e}')
     finally:
+        # -- [FINALIZAÇÃO] Reseta estado e libera eventos ------------------
         state['fase'] = 'parado'
         stop_event.clear(); pause_event.set()
 
@@ -577,6 +605,9 @@ body  { background:#0b1120 !important; }
                         with ui.button(on_click=lambda: _preview_arquivo()).classes('btn-quick'):
                             with ui.row().classes('items-center gap-2 w-full justify-center'):
                                 ui.icon('visibility',size='xs'); ui.label('Pré-visualizar Arquivo')
+                        with ui.button(on_click=lambda: _editar_arquivo()).classes('btn-quick'):
+                            with ui.row().classes('items-center gap-2 w-full justify-center'):
+                                ui.icon('edit_note',size='xs'); ui.label('Editar Arquivo')
 
     # ── FOOTER ──────────────────────────────────────────────────────────────
     with ui.element('div').style('background:#0d1526;border-top:1px solid #1a2540;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;'):
@@ -622,6 +653,38 @@ body  { background:#0b1120 !important; }
 
     def _exportar_log():
         ui.notify('Log exportado em logs/log_export.txt', type='positive', position='top-right', timeout=4000)
+
+    # -- [EDITOR] Abre o arquivo selecionado para edição inline -------------
+    def _editar_arquivo():
+        path = state['arquivo']
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                conteudo = f.read()
+        except Exception:
+            conteudo = ''
+        with ui.dialog() as dlg, ui.card().style(
+            'min-width:640px;max-width:860px;width:100%;background:#0d1526;border:1px solid #1e2d45;'
+        ):
+            with ui.row().classes('items-center gap-2').style('margin-bottom:14px;'):
+                ui.icon('edit_note').style('color:#EAB308;font-size:20px;')
+                ui.label(f'Editar — {os.path.basename(path)}').style('font-weight:700;font-size:15px;color:#f1f5f9;')
+            editor = ui.textarea(value=conteudo).props('outlined rows=22').style(
+                'width:100%;font-family:"Courier New",monospace;font-size:13px;'
+            )
+            with ui.row().classes('gap-2 justify-end').style('margin-top:14px;'):
+                ui.button('Cancelar', on_click=dlg.close).props('flat color=grey')
+                def _salvar():
+                    try:
+                        with open(path, 'w', encoding='utf-8') as f:
+                            f.write(editor.value)
+                        _atualizar_resumo()
+                        _push('sucesso', f'{os.path.basename(path)} salvo com sucesso')
+                        ui.notify('✅ Arquivo salvo!', type='positive', position='top-right', timeout=3000)
+                        dlg.close()
+                    except Exception as ex:
+                        ui.notify(f'Erro ao salvar: {ex}', type='negative')
+                ui.button('Salvar', on_click=_salvar).props('color=yellow')
+        dlg.open()
 
     def _capturar_coord(key):
         import pyautogui

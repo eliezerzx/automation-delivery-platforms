@@ -1,5 +1,13 @@
-Batata Frita Gigante Caixa De Pizza 2kg | Batata Frita Com Cheddar Catupiry Ketchup Maionese Mostarda Calabresa Bacon E Queijo Ralado | 98,90
-Batata Frita Grande Caixa De Broto 600g | Batata Frita Com Cheddar Catupiry Ketchup Maionese Mostarda Calabresa Bacon E Queijo Ralado | 59,90
-Batata Frita Média Hamburgueira 400g | Batata Frita Com Cheddar Catupiry Ketchup Maionese Mostarda Calabresa Bacon E Queijo Ralado | 42,90
-Batata Frita Pequena Hamburgueira H3 300g | Batata Frita Com Cheddar Catupiry Ketchup Maionese Mostarda Calabresa Bacon E Queijo Ralado | 29,90
-Batata Frita Mini Hamburgueira H2 200g | Batata Frita Com Cheddar Catupiry Ketchup Maionese Mostarda Calabresa Bacon E Queijo Ralado | 25,90
+Marmita Bifê À Cavalo E Ovo Frito + Farofa + Macarrão | Marmita De Bifê À Cavalo Com Ovo Frito, Farofa E Macarrão | 41,90
+Marmita Bifê À Milanesa + Farofa + Macarrão | Marmita De Bifê À Milanesa Acompanhada De Farofa E Macarrão | 41,90
+Marmita Bifê Acebolado + Farofa + Macarrão | Marmita De Bifê Acebolado Acompanhada De Farofa E Macarrão | 41,90
+Marmita Empanado De Frango + Farofa + Macarrão | Marmita De Empanado De Frango Acompanhada De Farofa E Macarrão | 41,90
+Marmita Frango Grelhado + Farofa + Macarrão | Marmita De Frango Grelhado Acompanhada De Farofa E Macarrão | 41,90
+Marmita Omelete + Farofa + Macarrão | Marmita De Omelete Acompanhada De Farofa E Macarrão | 41,90
+Marmita Panqueca De Carne + Farofa + Macarrão | Marmita De Panqueca De Carne Acompanhada De Farofa E Macarrão | 41,90
+Marmita Panqueca De Pizza + Farofa + Macarrão | Marmita De Panqueca De Pizza Acompanhada De Farofa E Macarrão | 41,90
+Marmita Panqueca De Presunto E Queijo + Farofa + Macarrão | Marmita De Panqueca De Presunto E Queijo Com Farofa E Macarrão | 41,90
+Marmita Panqueca De Queijo + Farofa + Macarrão | Marmita De Panqueca De Queijo Acompanhada De Farofa E Macarrão | 41,90
+Marmita Parmegiana De Carne + Farofa + Macarrão | Marmita De Parmegiana De Carne Acompanhada De Farofa E Macarrão | 41,90
+Marmita Parmegiana De Frango + Farofa + Macarrão | Marmita De Parmegiana De Frango Acompanhada De Farofa E Macarrão | 41,90
+Marmita Enroladinho Frango Com Queijo + Farofa + Macarrão | Marmita De Enroladinho De Frango Com Queijo, Farofa E Macarrão | 41,90

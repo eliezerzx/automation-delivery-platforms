@@ -1,19 +1,18 @@
-Coca-Cola lata 350ml
-Fanta Laranja lata 350ml
-Guaraná Antarctica Zero lata 350ml
-Sprite lata 350ml
-Fanta Uva lata 350ml
-Coca-Cola 600ml
-Coca-Cola Zero 600ml
-Fanta Laranja 600ml
-Guaraná Antarctica 600ml
-Coca-Cola 1L
-Coca-Cola Zero 1L
-Coca-Cola 2L
-Coca-Cola Zero 2L
-Fanta Laranja 2L
-Fanta Uva 2L
-Sprite 2L
-Água sem gás 510ml
-Água com gás 510ml
-Heineken Long Neck 330ml
+Carne Smash 90g | 3,99
+Hamburguer 150g | 7,99
+Frango Empanado na Panko | 7,99
+Queijo Cheddar | 3,99
+Catupiry Original | 7,99
+Catupiry Empanado | 9,99
+Creme de Cheddar | 7,99
+Bacon | 4,99
+Picles | 2,99
+Alface | 2,99
+Tomate | 2,99
+Cebola Caramelizada | 2,99
+Cebola Crispy | 2,99
+Aneis de Cebola | 3,99
+Geleia de Pimenta | 2,99
+Molho Picante Artesanal | 2,99
+Molho Grill | 2,99
+Nuggets | 7,99

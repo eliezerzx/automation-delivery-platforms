@@ -176,7 +176,8 @@ def _thread_automacao():
                     _push('parada', 'Parado no delay duplicação.'); break
 
                 # -- [COMBO] Define produto como combo (descomente p/ ativar)
-                # pyautogui.click(899, 426); time.sleep(1.0)
+                #pyautogui.click(899, 426);
+                #time.sleep(1.0)
 
                 # -- [NOME] Cola nome no campo via clipboard ----------------
                 pyperclip.copy(nome)
@@ -185,13 +186,13 @@ def _thread_automacao():
                 pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.5)
 
-                # -- [DESCRIÇÃO] 1 tab → preenche descrição ----------------
-                for _ in range(1): pyautogui.press('tab'); time.sleep(0.1)
+                # -- [DESCRIÇÃO] 2 tabs → preenche descrição ---------------
+                for _ in range(2): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.hotkey('ctrl', 'a'); pyautogui.press('backspace')
                 pyperclip.copy(descricao); pyautogui.hotkey('ctrl', 'v'); time.sleep(0.2)
 
-                # -- [PREÇO] 1 tab → preenche preço ------------------------
-                for _ in range(1): pyautogui.press('tab'); time.sleep(0.1)
+                # -- [PREÇO] 5 tabs → preenche preço ----------------------
+                for _ in range(5): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.hotkey('ctrl', 'a'); pyautogui.press('backspace')
                 pyperclip.copy(f'{preco:.2f}'); pyautogui.hotkey('ctrl', 'v'); time.sleep(0.5)
 
@@ -679,7 +680,7 @@ body  { background:#0b1120 !important; }
                             f.write(editor.value)
                         _atualizar_resumo()
                         _push('sucesso', f'{os.path.basename(path)} salvo com sucesso')
-                        ui.notify('✅ Arquivo salvo!', type='positive', position='top-right', timeout=3000)
+                        ui.notify(' Arquivo salvo!', type='positive', position='top-right', timeout=3000)
                         dlg.close()
                     except Exception as ex:
                         ui.notify(f'Erro ao salvar: {ex}', type='negative')

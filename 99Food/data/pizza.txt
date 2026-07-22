@@ -1,13 +1,14 @@
-Marmita Bifê À Cavalo E Ovo Frito + Farofa + Macarrão | Marmita De Bifê À Cavalo Com Ovo Frito, Farofa E Macarrão | 41,90
-Marmita Bifê À Milanesa + Farofa + Macarrão | Marmita De Bifê À Milanesa Acompanhada De Farofa E Macarrão | 41,90
-Marmita Bifê Acebolado + Farofa + Macarrão | Marmita De Bifê Acebolado Acompanhada De Farofa E Macarrão | 41,90
-Marmita Empanado De Frango + Farofa + Macarrão | Marmita De Empanado De Frango Acompanhada De Farofa E Macarrão | 41,90
-Marmita Frango Grelhado + Farofa + Macarrão | Marmita De Frango Grelhado Acompanhada De Farofa E Macarrão | 41,90
-Marmita Omelete + Farofa + Macarrão | Marmita De Omelete Acompanhada De Farofa E Macarrão | 41,90
-Marmita Panqueca De Carne + Farofa + Macarrão | Marmita De Panqueca De Carne Acompanhada De Farofa E Macarrão | 41,90
-Marmita Panqueca De Pizza + Farofa + Macarrão | Marmita De Panqueca De Pizza Acompanhada De Farofa E Macarrão | 41,90
-Marmita Panqueca De Presunto E Queijo + Farofa + Macarrão | Marmita De Panqueca De Presunto E Queijo Com Farofa E Macarrão | 41,90
-Marmita Panqueca De Queijo + Farofa + Macarrão | Marmita De Panqueca De Queijo Acompanhada De Farofa E Macarrão | 41,90
-Marmita Parmegiana De Carne + Farofa + Macarrão | Marmita De Parmegiana De Carne Acompanhada De Farofa E Macarrão | 41,90
-Marmita Parmegiana De Frango + Farofa + Macarrão | Marmita De Parmegiana De Frango Acompanhada De Farofa E Macarrão | 41,90
-Marmita Enroladinho Frango Com Queijo + Farofa + Macarrão | Marmita De Enroladinho De Frango Com Queijo, Farofa E Macarrão | 41,90
+Pit Bull | Lanche com 2 Salsichas, Vinagrete, Queijo Cheddar, Milho, Catupiry E Molho Especial. Foto Ilustrativa. | 37,90
+Pequinês | Lanche com 2 Salsichas, Calabresa, Catupiry, Queijo Cheddar, Vinagrete E Milho. Foto Ilustrativa. | 37,90
+Qualquer Um | Lanche De Filé De Frango Com Hambúrguer, Presunto, Queijo Cheddar E Milho. Foto Ilustrativa. | 38,90
+Todo Dia Um | Lanche com 3 Hambúrgueres, Bacon, Cebola Roxa E 3 Fatias De Queijo Cheddar. Foto Ilustrativa. | 44,90
+Bull Dog | Lanche com 2 Salsichas, Frango Desfiado, Catupiry, Queijo Cheddar E Vinagrete. Foto Ilustrativa. | 37,90
+American Bulling | Lanche com 2 Salsichas, Bacon, Queijo Cheddar, Vinagrete, Milho E Molho Especial. Foto Ilustrativa. | 38,90
+Mãe Quero Esse | Lanche com Hambúrguer, Presunto, Queijo, Molho Especial E Batata Palha. Foto Ilustrativa. | 29,90
+Não Sei | Lanche com 2 Hambúrgueres, Queijo Cheddar, Vinagrete, Alface E Molho Especial. Foto Ilustrativa. | 41,90
+Esse Aqui | Lanche De Filé De Frango Com Hambúrguer, Queijo Cheddar, Lombo E Molho Especial. Foto Ilustrativa. | 43,90
+Esqueceram De Mim | Lanche com 3 Hambúrgueres, Muçarela, Presunto, Calabresa E Cebola Roxa. Foto Ilustrativa. | 47,90
+Você Que Sabe | Lanche com 2 Hambúrgueres, 2 Ovos, Bacon, Catupiry, Alface E Tomate. Foto Ilustrativa. | 46,90
+Escolhe Aí | Lanche De Frango Desfiado Com Brócolis, Bacon, Catupiry E Queijo Cheddar. Foto Ilustrativa. | 43,90
+Aquele Lá | Lanche com 2 Hambúrgueres, Bacon, 2 Ovos, Filé De Frango E 3 Fatias De Queijo. Foto Ilustrativa. | 47,90
+X Fênix | Lanche De Pão Quadrado com 2 Hambúrgueres, Lombo, Calabresa, Bacon E 2 Ovos. Foto Ilustrativa. | 71,90

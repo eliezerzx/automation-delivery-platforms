@@ -1,4 +1,15 @@
-Smash Clássico + Coca-Cola 1l | Hambúrguer estilo smash prensado na chapa com queijo derretido e molho especial. Acompanha Coca-Cola 1l. Foto Ilustrativa. | 34,99
-Duplo Smash + Coca-Cola 1l | Dois hambúrgueres estilo smash prensados na chapa com muito queijo derretido. + Coca-Cola 1l | 44,99
-Insano Quarteirão + Coca-Cola 1l | 2 hambúrgueres 150g, duplo cheddar, duplo bacon e molho gourmet especial. Acompanha Coca-Cola 1l. Foto Ilustrativa. | 59,99
-Smash Salada + Coca-Cola 1l | Hambúrguer estilo smash com queijo, alface fresquinha, tomate e molho especial. Acompanha Coca-Cola 1l. Foto Ilustrativa. | 42,99
+
+Pizza Milho I - Média (8 Pedaços) | Mussarela, Milho E Cebola. Foto Ilustrativa. | 59,90
+Pizza Milho II - Média (8 Pedaços) | Mussarela, Milho E Champignon. Foto Ilustrativa. | 59,90
+Pizza Milho com Catupiry - Média (8 Pedaços) | Mussarela, Milho, Catupiry E Cebola. Foto Ilustrativa. | 59,90
+Pizza Milho com Catupiry II - Média (8 Pedaços) | Mussarela, Milho, Catupiry, Parmesão E Tomate. Foto Ilustrativa. | 59,90
+Pizza Creme de Milho - Média (8 Pedaços) | Mussarela E Creme De Milho. Foto Ilustrativa. | 59,90
+Pizza Camarão I - Média (8 Pedaços) | Mussarela, Camarão, Cheddar E Champignon. Foto Ilustrativa. | 59,90
+Pizza Camarão II - Média (8 Pedaços) | Mussarela, Camarão, Catupiry E Tomate. Foto Ilustrativa. | 59,90
+Pizza Banana - Média (8 Pedaços) | Mussarela, Banana, Leite Condensado E Canela. Foto Ilustrativa. | 59,90
+Pizza Romeu e Julieta - Média (8 Pedaços) | Mussarela E Goiabada. Foto Ilustrativa. | 59,90
+Pizza Brigadeiro - Média (8 Pedaços) | Chocolate Ao Leite E Granulado. Foto Ilustrativa. | 59,90
+Pizza Prestígio - Média (8 Pedaços) | Chocolate Ao Leite E Coco Ralado. Foto Ilustrativa. | 59,90
+Pizza Pepperone - Média (8 Pedaços) | Mussarela E Pepperone. Foto Ilustrativa. | 59,90
+Pizza Lomabacaxi - Média (8 Pedaços) | Mussarela, Lombo, Abacaxi E Catupiry. Foto Ilustrativa. | 59,90
+Pizza Hot-Dog - Média (8 Pedaços) | Mussarela, Salsicha, Milho, Ervilha, Vinagrete, Purê E Batata Palha. Foto Ilustrativa. | 59,90

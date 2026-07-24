@@ -512,7 +512,7 @@ body  { background:#0b1120 !important; }
                             ui.label('Delay de salvamento').style('font-size:13px;color:#94a3b8;')
                             env_val = ui.label('3.0s').style('font-size:13px;font-weight:700;color:#EA1D2C;')
                         def on_env(e): state['delay_salvar']=e.value; env_val.set_text('{:.1f}s'.format(e.value))
-                        ui.slider(min=1,max=8,step=0.5,value=3.0,on_change=on_env).props('color=red').classes('w-full')
+                        ui.slider(min=1,max=30,step=0.5,value=3.0,on_change=on_env).props('color=red').classes('w-full')
 
                 with ui.element('div').classes('card'):
                     with ui.row().classes('items-center gap-2').style('margin-bottom:12px;'):

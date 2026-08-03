@@ -1,25 +1,46 @@
-Pizza Frango com Catupiry III - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado, Catupiry, Ervilha E Palmito. Acompanha Guaraná 2l. | 139,90
-Pizza Frango com Bacon - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado, Bacon E Catupiry. Acompanha Guaraná 2l. | 139,90
-Pizza Frango c/ Creme de Milho - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado E Creme De Milho. Acompanha Guaraná 2l. | 139,90
-Pizza Frango Palha - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado, Milho, Catupiry E Batata Palha. Acompanha Guaraná 2l. | 139,90
-Pizza Atum Simples - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum E Cebola. Acompanha Guaraná 2l. | 139,90
-Pizza Atum com Catupiry - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum, Catupiry E Cebola. Acompanha Guaraná 2l. | 139,90
-Pizza Atum à Portuguesa - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum, Ovo, Palmito E Cebola. Acompanha Guaraná 2l. | 139,90
-Pizza Atum com Champignon - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum, Champignon E Cebola. Acompanha Guaraná 2l. | 139,90
-Pizza Escarola I - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Escarola, Cebola E Tomate. Acompanha Guaraná 2l. | 139,90
-Pizza Escarola II - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Escarola, Bacon E Catupiry. Acompanha Guaraná 2l. | 139,90
-Pizza Napolitana - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Parmesão E Tomate. Acompanha Guaraná 2l. | 139,90
-Pizza Catupiry - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Catupiry. Acompanha Guaraná 2l. | 139,90
-Pizza Quatro Queijos - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Catupiry, Gorgonzola E Parmesão. Acompanha Guaraná 2l. | 139,90
-Pizza Milho I - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho E Cebola. Acompanha Guaraná 2l. | 139,90
-Pizza Milho II - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho E Champignon. Acompanha Guaraná 2l. | 139,90
-Pizza Milho com Catupiry - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho, Catupiry E Cebola. Acompanha Guaraná 2l. | 139,90
-Pizza Milho com Catupiry II - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho, Catupiry, Parmesão E Tomate. Acompanha Guaraná 2l. | 139,90
-Pizza Creme de Milho - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Creme De Milho. Acompanha Guaraná 2l. | 139,90
-Pizza Banana - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Banana, Leite Condensado E Canela. Acompanha Guaraná 2l. | 139,90
-Pizza Romeu e Julieta - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Goiabada. Acompanha Guaraná 2l. | 139,90
-Pizza Brigadeiro - Gigante (16 Pedaços) + Guaraná 2l | Chocolate Ao Leite E Granulado. Acompanha Guaraná 2l. | 139,90
-Pizza Prestígio - Gigante (16 Pedaços) + Guaraná 2l | Chocolate Ao Leite E Coco Ralado. Acompanha Guaraná 2l. | 139,90
-Pizza Pepperone - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Pepperone. Acompanha Guaraná 2l. | 139,90
-Pizza Lomabacaxi - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Lombo, Abacaxi E Catupiry. Acompanha Guaraná 2l. | 139,90
-Pizza Hot-Dog - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Salsicha, Milho, Ervilha, Vinagrete, Purê E Batata Palha. Acompanha Guaraná 2l. | 139,90
+Pizza Bacon - Trem (32 Pedaços) | Mussarela, Bacon E Cebola. | 149,90
+Pizza Mussarela - Trem (32 Pedaços) | Mussarela E Tomate. | 149,90
+Pizza Calabresa - Trem (32 Pedaços) | Mussarela, Calabresa E Cebola. | 149,90
+Pizza Calabresa com Catupiry - Trem (32 Pedaços) | Mussarela, Calabresa, Catupiry E Cebola. | 149,90
+Pizza Presunto - Trem (32 Pedaços) | Mussarela, Presunto, Tomate E Cebola. | 149,90
+Pizza Presunto com Catupiry - Trem (32 Pedaços) | Mussarela, Presunto, Catupiry, Tomate E Cebola. | 149,90
+Pizza Lombo com Milho - Trem (32 Pedaços) | Mussarela, Lombo E Milho. | 149,90
+Pizza Lombo com Catupiry - Trem (32 Pedaços) | Mussarela, Lombo E Catupiry. | 149,90
+Pizza Palmito - Trem (32 Pedaços) | Mussarela, Palmito E Ovo. | 149,90
+Pizza Palmito com Catupiry - Trem (32 Pedaços) | Mussarela, Palmito E Catupiry. | 149,90
+Pizza Portuguesa Simples - Trem (32 Pedaços) | Mussarela, Presunto, Palmito, Ervilha, Ovo E Cebola. | 149,90
+Pizza Portuguesa Especial - Trem (32 Pedaços) | Mussarela, Presunto, Calabresa, Palmito, Ervilha, Ovo, Catupiry E Cebola. | 149,90
+Pizza Moda da Casa - Trem (32 Pedaços) | Mussarela, Presunto, Frango, Palmito, Milho, Ervilha, Lombo E Catupiry. | 149,90
+Pizza Salame com Catupiry - Trem (32 Pedaços) | Mussarela, Salame, Catupiry E Cebola. | 149,90
+Pizza Saborosa - Trem (32 Pedaços) | Mussarela, Frango, Calabresa, Bacon, Catupiry E Cebola. | 149,90
+Pizza Champignon - Trem (32 Pedaços) | Mussarela, Champignon E Bacon. | 149,90
+Pizza Americana - Trem (32 Pedaços) | Mussarela, Presunto, Champignon E Catupiry. | 149,90
+Pizza Firenze - Trem (32 Pedaços) | Mussarela, Cebola E Catupiry. | 149,90
+Pizza Brócolis I - Trem (32 Pedaços) | Mussarela, Brócolis E Alho. | 149,90
+Pizza Brócolis II - Trem (32 Pedaços) | Mussarela, Brócolis, Bacon, Catupiry E Alho. | 149,90
+Pizza Margherita - Trem (32 Pedaços) | Mussarela, Manjericão, Parmesão E Tomate. | 149,90
+Pizza Calabacon - Trem (32 Pedaços) | Mussarela, Calabresa, Bacon E Cebola. | 149,90
+Pizza Peito de Peru - Trem (32 Pedaços) | Mussarela, Peito De Peru E Catupiry. | 149,90
+Pizza Baiana - Trem (32 Pedaços) | Mussarela, Calabresa, Tomate, Pimenta E Cebola. | 149,90
+Pizza Alho e Óleo - Trem (32 Pedaços) | Mussarela, Alho, Parmesão E Tomate. | 149,90
+Pizza Tropical - Trem (32 Pedaços) | Mussarela, Presunto, Milho, Ovo, Tomate E Cebola. | 149,90
+Pizza Carne Seca - Trem (32 Pedaços) | Mussarela, Carne Seca Desfiada, Catupiry E Cebola. | 149,90
+Pizza Espanhola - Trem (32 Pedaços) | Mussarela, Peito De Peru, Brócolis E Tomate. | 149,90
+Pizza Frango com Catupiry I - Trem (32 Pedaços) | Mussarela, Frango Desfiado E Catupiry. | 149,90
+Pizza Frango com Catupiry II - Trem (32 Pedaços) | Mussarela, Frango Desfiado, Catupiry E Milho. | 149,90
+Pizza Frango com Catupiry III - Trem (32 Pedaços) | Mussarela, Frango Desfiado, Catupiry, Ervilha E Palmito. | 149,90
+Pizza Frango com Bacon - Trem (32 Pedaços) | Mussarela, Frango Desfiado, Bacon E Catupiry. | 149,90
+Pizza Frango c/ Creme de Milho - Trem (32 Pedaços) | Mussarela, Frango Desfiado E Creme De Milho. | 149,90
+Pizza Frango Palha - Trem (32 Pedaços) | Mussarela, Frango Desfiado, Milho, Catupiry E Batata Palha. | 149,90
+Pizza Atum Simples - Trem (32 Pedaços) | Mussarela, Atum E Cebola. | 149,90
+Pizza Atum com Catupiry - Trem (32 Pedaços) | Mussarela, Atum, Catupiry E Cebola. | 149,90
+Pizza Atum à Portuguesa - Trem (32 Pedaços) | Mussarela, Atum, Ovo, Palmito E Cebola. | 149,90
+Pizza Atum com Champignon - Trem (32 Pedaços) | Mussarela, Atum, Champignon E Cebola. | 149,90
+Pizza Escarola I - Trem (32 Pedaços) | Mussarela, Escarola, Cebola E Tomate. | 149,90
+Pizza Escarola II - Trem (32 Pedaços) | Mussarela, Escarola, Bacon E Catupiry. | 149,90
+Pizza Napolitana - Trem (32 Pedaços) | Mussarela, Parmesão E Tomate. | 149,90
+Pizza Catupiry - Trem (32 Pedaços) | Mussarela E Catupiry. | 149,90
+Pizza Quatro Queijos - Trem (32 Pedaços) | Mussarela, Catupiry, Gorgonzola E Parmesão. | 149,90
+Pizza Milho I - Trem (32 Pedaços) | Mussarela, Milho E Cebola. | 149,90
+Pizza Milho II - Trem (32 Pedaços) | Mussarela, Milho E Champignon. | 149,90
+Pizza Milho com Catupiry - Trem (32 Pedaços) |

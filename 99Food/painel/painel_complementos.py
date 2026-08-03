@@ -191,7 +191,7 @@ def _thread_automacao():
                 # -- [CLICAR] Clica no centro da imagem encontrada ----------
                 cx, cy = pyautogui.center(location)
                 pyautogui.click(cx, cy)
-                time.sleep(0.5)
+                time.sleep(2.5)  # aguarda carregamento do site
 
                 # -- [NOME] Clica no campo nome e cola via clipboard --------
                 pyperclip.copy(nome)

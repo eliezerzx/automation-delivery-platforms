@@ -1,10 +1,27 @@
-Coca-Cola Lata|Refrigerante gelado 350ml|8.00
-Guaraná Antarctica Lata|Refrigerante gelado 350ml|7.00
-Fanta Laranja Lata|Refrigerante gelado 350ml|7.00
-Água Mineral|Água sem gás 500ml|4.00
-Água com Gás|Água mineral com gás 500ml|5.00
-Suco de Laranja|Suco natural espremido 300ml|9.00
-Suco de Limão|Suco natural espremido 300ml|9.00
-Cerveja Heineken|Long neck 330ml gelada|12.00
-Cerveja Brahma|Long neck 330ml gelada|10.00
-Red Bull|Energético lata 250ml|14.00
+Pizza 1/2 Frango com Catupiry I | 0
+Pizza 1/2 Frango com Catupiry II | 0
+Pizza 1/2 Frango com Catupiry III | 0
+Pizza 1/2 Frango com Bacon | 0
+Pizza 1/2 Frango c/ Creme de Milho | 0
+Pizza 1/2 Frango Palha | 0
+Pizza 1/2 Atum Simples | 0
+Pizza 1/2 Atum com Catupiry | 0
+Pizza 1/2 Atum à Portuguesa | 0
+Pizza 1/2 Atum com Champignon | 0
+Pizza 1/2 Escarola I | 0
+Pizza 1/2 Escarola II | 0
+Pizza 1/2 Napolitana | 0
+Pizza 1/2 Catupiry | 0
+Pizza 1/2 Quatro Queijos | 0
+Pizza 1/2 Milho I | 0
+Pizza 1/2 Milho II | 0
+Pizza 1/2 Milho com Catupiry | 0
+Pizza 1/2 Milho com Catupiry II | 0
+Pizza 1/2 Creme de Milho | 0
+Pizza 1/2 Banana | 0
+Pizza 1/2 Romeu e Julieta | 0
+Pizza 1/2 Brigadeiro | 0
+Pizza 1/2 Prestígio | 0
+Pizza 1/2 Pepperone | 0
+Pizza 1/2 Lomabacaxi | 0
+Pizza 1/2 Hot-Dog  | 0

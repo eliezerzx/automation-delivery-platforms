@@ -502,6 +502,9 @@ body  { background:#0b1120 !important; }
                         with ui.button(on_click=lambda: _preview_arquivo()).classes('btn-quick'):
                             with ui.row().classes('items-center gap-2 w-full justify-center'):
                                 ui.icon('visibility',size='xs'); ui.label('Pre-visualizar Arquivo')
+                        with ui.button(on_click=lambda: _editar_arquivo()).classes('btn-quick'):
+                            with ui.row().classes('items-center gap-2 w-full justify-center'):
+                                ui.icon('edit_note',size='xs'); ui.label('Editar Arquivo')
 
     with ui.element('div').style('background:#0d1526;border-top:1px solid #1a2540;padding:10px 24px;display:flex;justify-content:space-between;align-items:center;'):
         ui.label('2025 iFood Automation. Todos os direitos reservados.').style('font-size:12px;color:#4b5563;')
@@ -547,6 +550,37 @@ body  { background:#0b1120 !important; }
 
     def _exportar_log():
         ui.notify('Log exportado em logs/log_export.txt', type='positive', position='top-right', timeout=4000)
+
+    def _editar_arquivo():
+        path = state['arquivo']
+        try:
+            with open(path, 'r', encoding='utf-8') as f:
+                conteudo = f.read()
+        except Exception:
+            conteudo = ''
+        with ui.dialog() as dlg, ui.card().style(
+            'min-width:640px;max-width:860px;width:100%;background:#0d1526;border:1px solid #1e2d45;'
+        ):
+            with ui.row().classes('items-center gap-2').style('margin-bottom:14px;'):
+                ui.icon('edit_note').style('color:#EA1D2C;font-size:20px;')
+                ui.label('Editar -- ' + os.path.basename(path)).style('font-weight:700;font-size:15px;color:#f1f5f9;')
+            editor = ui.textarea(value=conteudo).props('outlined rows=22').style(
+                'width:100%;font-family:"Courier New",monospace;font-size:13px;'
+            )
+            with ui.row().classes('gap-2 justify-end').style('margin-top:14px;'):
+                ui.button('Cancelar', on_click=dlg.close).props('flat color=grey')
+                def _salvar():
+                    try:
+                        with open(path, 'w', encoding='utf-8') as f:
+                            f.write(editor.value)
+                        _atualizar_resumo()
+                        _push('sucesso', os.path.basename(path) + ' salvo com sucesso')
+                        ui.notify('Arquivo salvo!', type='positive', position='top-right', timeout=3000)
+                        dlg.close()
+                    except Exception as ex:
+                        ui.notify('Erro ao salvar: ' + str(ex), type='negative')
+                ui.button('Salvar', on_click=_salvar).props('color=red')
+        dlg.open()
 
     def _capturar_coord(key):
         import pyautogui

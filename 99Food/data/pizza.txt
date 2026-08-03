@@ -1,14 +1,25 @@
-Pit Bull | Lanche com 2 Salsichas, Vinagrete, Queijo Cheddar, Milho, Catupiry E Molho Especial. Foto Ilustrativa. | 37,90
-Pequinês | Lanche com 2 Salsichas, Calabresa, Catupiry, Queijo Cheddar, Vinagrete E Milho. Foto Ilustrativa. | 37,90
-Qualquer Um | Lanche De Filé De Frango Com Hambúrguer, Presunto, Queijo Cheddar E Milho. Foto Ilustrativa. | 38,90
-Todo Dia Um | Lanche com 3 Hambúrgueres, Bacon, Cebola Roxa E 3 Fatias De Queijo Cheddar. Foto Ilustrativa. | 44,90
-Bull Dog | Lanche com 2 Salsichas, Frango Desfiado, Catupiry, Queijo Cheddar E Vinagrete. Foto Ilustrativa. | 37,90
-American Bulling | Lanche com 2 Salsichas, Bacon, Queijo Cheddar, Vinagrete, Milho E Molho Especial. Foto Ilustrativa. | 38,90
-Mãe Quero Esse | Lanche com Hambúrguer, Presunto, Queijo, Molho Especial E Batata Palha. Foto Ilustrativa. | 29,90
-Não Sei | Lanche com 2 Hambúrgueres, Queijo Cheddar, Vinagrete, Alface E Molho Especial. Foto Ilustrativa. | 41,90
-Esse Aqui | Lanche De Filé De Frango Com Hambúrguer, Queijo Cheddar, Lombo E Molho Especial. Foto Ilustrativa. | 43,90
-Esqueceram De Mim | Lanche com 3 Hambúrgueres, Muçarela, Presunto, Calabresa E Cebola Roxa. Foto Ilustrativa. | 47,90
-Você Que Sabe | Lanche com 2 Hambúrgueres, 2 Ovos, Bacon, Catupiry, Alface E Tomate. Foto Ilustrativa. | 46,90
-Escolhe Aí | Lanche De Frango Desfiado Com Brócolis, Bacon, Catupiry E Queijo Cheddar. Foto Ilustrativa. | 43,90
-Aquele Lá | Lanche com 2 Hambúrgueres, Bacon, 2 Ovos, Filé De Frango E 3 Fatias De Queijo. Foto Ilustrativa. | 47,90
-X Fênix | Lanche De Pão Quadrado com 2 Hambúrgueres, Lombo, Calabresa, Bacon E 2 Ovos. Foto Ilustrativa. | 71,90
+Pizza Frango com Catupiry III - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado, Catupiry, Ervilha E Palmito. Acompanha Guaraná 2l. | 139,90
+Pizza Frango com Bacon - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado, Bacon E Catupiry. Acompanha Guaraná 2l. | 139,90
+Pizza Frango c/ Creme de Milho - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado E Creme De Milho. Acompanha Guaraná 2l. | 139,90
+Pizza Frango Palha - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Frango Desfiado, Milho, Catupiry E Batata Palha. Acompanha Guaraná 2l. | 139,90
+Pizza Atum Simples - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum E Cebola. Acompanha Guaraná 2l. | 139,90
+Pizza Atum com Catupiry - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum, Catupiry E Cebola. Acompanha Guaraná 2l. | 139,90
+Pizza Atum à Portuguesa - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum, Ovo, Palmito E Cebola. Acompanha Guaraná 2l. | 139,90
+Pizza Atum com Champignon - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Atum, Champignon E Cebola. Acompanha Guaraná 2l. | 139,90
+Pizza Escarola I - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Escarola, Cebola E Tomate. Acompanha Guaraná 2l. | 139,90
+Pizza Escarola II - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Escarola, Bacon E Catupiry. Acompanha Guaraná 2l. | 139,90
+Pizza Napolitana - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Parmesão E Tomate. Acompanha Guaraná 2l. | 139,90
+Pizza Catupiry - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Catupiry. Acompanha Guaraná 2l. | 139,90
+Pizza Quatro Queijos - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Catupiry, Gorgonzola E Parmesão. Acompanha Guaraná 2l. | 139,90
+Pizza Milho I - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho E Cebola. Acompanha Guaraná 2l. | 139,90
+Pizza Milho II - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho E Champignon. Acompanha Guaraná 2l. | 139,90
+Pizza Milho com Catupiry - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho, Catupiry E Cebola. Acompanha Guaraná 2l. | 139,90
+Pizza Milho com Catupiry II - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Milho, Catupiry, Parmesão E Tomate. Acompanha Guaraná 2l. | 139,90
+Pizza Creme de Milho - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Creme De Milho. Acompanha Guaraná 2l. | 139,90
+Pizza Banana - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Banana, Leite Condensado E Canela. Acompanha Guaraná 2l. | 139,90
+Pizza Romeu e Julieta - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Goiabada. Acompanha Guaraná 2l. | 139,90
+Pizza Brigadeiro - Gigante (16 Pedaços) + Guaraná 2l | Chocolate Ao Leite E Granulado. Acompanha Guaraná 2l. | 139,90
+Pizza Prestígio - Gigante (16 Pedaços) + Guaraná 2l | Chocolate Ao Leite E Coco Ralado. Acompanha Guaraná 2l. | 139,90
+Pizza Pepperone - Gigante (16 Pedaços) + Guaraná 2l | Mussarela E Pepperone. Acompanha Guaraná 2l. | 139,90
+Pizza Lomabacaxi - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Lombo, Abacaxi E Catupiry. Acompanha Guaraná 2l. | 139,90
+Pizza Hot-Dog - Gigante (16 Pedaços) + Guaraná 2l | Mussarela, Salsicha, Milho, Ervilha, Vinagrete, Purê E Batata Palha. Acompanha Guaraná 2l. | 139,90

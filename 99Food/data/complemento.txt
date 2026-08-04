@@ -1,55 +1,55 @@
-Pizza 1/3 Bacon | 0
-Pizza 1/3 Mussarela | 0
-Pizza 1/3 Calabresa | 0
-Pizza 1/3 Calabresa com Catupiry | 0
-Pizza 1/3 Presunto | 0
-Pizza 1/3 Presunto com Catupiry | 0
-Pizza 1/3 Lombo com Milho | 0
-Pizza 1/3 Lombo com Catupiry | 0
-Pizza 1/3 Palmito | 0
-Pizza 1/3 Palmito com Catupiry | 0
-Pizza 1/3 Portuguesa Simples | 0
-Pizza 1/3 Portuguesa Especial | 0
-Pizza 1/3 Moda da Casa | 0
-Pizza 1/3 Salame com Catupiry | 0
-Pizza 1/3 Saborosa | 0
-Pizza 1/3 Champignon | 0
-Pizza 1/3 Americana | 0
-Pizza 1/3 Firenze | 0
-Pizza 1/3 Brócolis I | 0
-Pizza 1/3 Brócolis II | 0
-Pizza 1/3 Margherita | 0
-Pizza 1/3 Calabacon | 0
-Pizza 1/3 Peito de Peru | 0
-Pizza 1/3 Baiana | 0
-Pizza 1/3 Alho e Óleo | 0
-Pizza 1/3 Tropical | 0
-Pizza 1/3 Carne Seca | 0
-Pizza 1/3 Espanhola | 0
-Pizza 1/3 Frango com Catupiry I | 0
-Pizza 1/3 Frango com Catupiry II | 0
-Pizza 1/3 Frango com Catupiry III | 0
-Pizza 1/3 Frango com Bacon | 0
-Pizza 1/3 Frango c/ Creme de Milho | 0
-Pizza 1/3 Frango Palha | 0
-Pizza 1/3 Atum Simples | 0
-Pizza 1/3 Atum com Catupiry | 0
-Pizza 1/3 Atum à Portuguesa | 0
-Pizza 1/3 Atum com Champignon | 0
-Pizza 1/3 Escarola I | 0
-Pizza 1/3 Escarola II | 0
-Pizza 1/3 Napolitana | 0
-Pizza 1/3 Catupiry | 0
-Pizza 1/3 Quatro Queijos | 0
-Pizza 1/3 Milho I | 0
-Pizza 1/3 Milho II | 0
-Pizza 1/3 Milho com Catupiry | 0
-Pizza 1/3 Milho com Catupiry II | 0
-Pizza 1/3 Creme de Milho | 0
-Pizza 1/3 Banana | 0
-Pizza 1/3 Romeu e Julieta | 0
-Pizza 1/3 Brigadeiro | 0
-Pizza 1/3 Prestígio | 0
-Pizza 1/3 Pepperone | 0
-Pizza 1/3 Lomabacaxi | 0
-Pizza 1/3 Hot-Dog | 0
+Pizza 1/4 Bacon | 0
+Pizza 1/4 Mussarela | 0
+Pizza 1/4 Calabresa | 0
+Pizza 1/4 Calabresa com Catupiry | 0
+Pizza 1/4 Presunto | 0
+Pizza 1/4 Presunto com Catupiry | 0
+Pizza 1/4 Lombo com Milho | 0
+Pizza 1/4 Lombo com Catupiry | 0
+Pizza 1/4 Palmito | 0
+Pizza 1/4 Palmito com Catupiry | 0
+Pizza 1/4 Portuguesa Simples | 0
+Pizza 1/4 Portuguesa Especial | 0
+Pizza 1/4 Moda da Casa | 0
+Pizza 1/4 Salame com Catupiry | 0
+Pizza 1/4 Saborosa | 0
+Pizza 1/4 Champignon | 0
+Pizza 1/4 Americana | 0
+Pizza 1/4 Firenze | 0
+Pizza 1/4 Brócolis I | 0
+Pizza 1/4 Brócolis II | 0
+Pizza 1/4 Margherita | 0
+Pizza 1/4 Calabacon | 0
+Pizza 1/4 Peito de Peru | 0
+Pizza 1/4 Baiana | 0
+Pizza 1/4 Alho e Óleo | 0
+Pizza 1/4 Tropical | 0
+Pizza 1/4 Carne Seca | 0
+Pizza 1/4 Espanhola | 0
+Pizza 1/4 Frango com Catupiry I | 0
+Pizza 1/4 Frango com Catupiry II | 0
+Pizza 1/4 Frango com Catupiry III | 0
+Pizza 1/4 Frango com Bacon | 0
+Pizza 1/4 Frango c/ Creme de Milho | 0
+Pizza 1/4 Frango Palha | 0
+Pizza 1/4 Atum Simples | 0
+Pizza 1/4 Atum com Catupiry | 0
+Pizza 1/4 Atum à Portuguesa | 0
+Pizza 1/4 Atum com Champignon | 0
+Pizza 1/4 Escarola I | 0
+Pizza 1/4 Escarola II | 0
+Pizza 1/4 Napolitana | 0
+Pizza 1/4 Catupiry | 0
+Pizza 1/4 Quatro Queijos | 0
+Pizza 1/4 Milho I | 0
+Pizza 1/4 Milho II | 0
+Pizza 1/4 Milho com Catupiry | 0
+Pizza 1/4 Milho com Catupiry II | 0
+Pizza 1/4 Creme de Milho | 0
+Pizza 1/4 Banana | 0
+Pizza 1/4 Romeu e Julieta | 0
+Pizza 1/4 Brigadeiro | 0
+Pizza 1/4 Prestígio | 0
+Pizza 1/4 Pepperone | 0
+Pizza 1/4 Lomabacaxi | 0
+Pizza 1/4 Hot-Dog | 0

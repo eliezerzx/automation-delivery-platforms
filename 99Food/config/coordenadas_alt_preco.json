@@ -1,0 +1,30 @@
+{
+  "btn_menu": [
+    1840,
+    558
+  ],
+  "btn_duplicar": [
+    1793,
+    638
+  ],
+  "campo_nome": [
+    306,
+    486
+  ],
+  "btn_enviar": [
+    312,
+    1001
+  ],
+  "clique_fora": [
+    1754,
+    458
+  ],
+  "btn_excluir": [
+    1816,
+    712
+  ],
+  "btn_confirmar": [
+    1118,
+    590
+  ]
+}

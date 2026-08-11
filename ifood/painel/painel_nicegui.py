@@ -198,6 +198,10 @@ def _thread_automacao():
                 time.sleep(2)
 
                 # --- Preencher nome ---
+                pyautogui.click(402, 479)  # Clicar fora para garantir foco
+                pyautogui.sleep(0.3)
+                pyautogui.press('home')
+                pyautogui.sleep(0.5)
                 pyperclip.copy(nome)
                 pyautogui.moveTo(*state['campo_nome'], duration=0.1)
                 pyautogui.click()

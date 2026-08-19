@@ -23,6 +23,7 @@ state = {
     'btn_duplicar':  (1716, 835),
     'campo_nome':    (310,  545),
     'btn_enviar':    (304,  999),
+    'clique_fora':   (0,    0),
     'inicio_tempo':  None,
     'tempo_pausado': 0.0,
     'pausa_inicio':  None,
@@ -35,6 +36,7 @@ COORD_KEYS = [
     ('btn_duplicar', 'Botão Duplicar'),
     ('campo_nome',   'Campo Nome'),
     ('btn_enviar',   'Botão Enviar'),
+    ('clique_fora',  'Clique Fora (após enviar)'),
 ]
 
 def _carregar_coordenadas():
@@ -130,6 +132,7 @@ def _thread_automacao():
     try:
         import pyautogui, pyperclip
         pyautogui.PAUSE = 0.3
+        pyautogui.FAILSAFE = False
 
         # -- [INIT] Lê o arquivo e conta os itens ---------------------------
         arquivo = state['arquivo']
@@ -176,8 +179,8 @@ def _thread_automacao():
                     _push('parada', 'Parado no delay duplicação.'); break
 
                 # -- [COMBO] Define produto como combo (descomente p/ ativar)
-                #pyautogui.click(899, 426);
-                #time.sleep(1.0)
+                pyautogui.click(879, 358);
+                time.sleep(1.0)
 
                 # -- [NOME] Cola nome no campo via clipboard ----------------
                 pyperclip.copy(nome)
@@ -200,6 +203,15 @@ def _thread_automacao():
                 pyautogui.moveTo(*state['btn_enviar'], duration=0.1); pyautogui.click()
                 if not _sleep_cancelavel(state['delay_env']):
                     _push('parada', 'Parado no delay envio.'); break
+
+                # -- [CARREGAR] Abre menu → clica fora → aguarda carregar --
+                _push('info', 'Abrindo menu para carregar...')
+                pyautogui.click(*state['menu_opcoes'], duration=0.1)
+                time.sleep(0.5)
+                _push('info', 'Clicando fora para carregar página...')
+                pyautogui.click(*state['clique_fora'], duration=0.1)
+                time.sleep(0.5)
+
                 _push('sucesso', f'"{nome}" adicionado')
                 adicionados += 1; state['itens_ok'] = adicionados
 

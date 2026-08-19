@@ -118,6 +118,7 @@ def _thread_automacao():
     try:
         import pyautogui, pyperclip
         pyautogui.PAUSE = 0.25
+        pyautogui.FAILSAFE = False
 
         _push('separador')
         _push('inicio', f'Iniciando — preço: R$ {state["preco"]}')

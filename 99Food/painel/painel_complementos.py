@@ -120,6 +120,7 @@ def _thread_automacao():
     try:
         import pyautogui, pyperclip
         pyautogui.PAUSE = 0.3
+        pyautogui.FAILSAFE = False
 
         img_novo_item = os.path.join(IMG_PATH, 'novo_item.png')
 
@@ -171,7 +172,7 @@ def _thread_automacao():
                 _push('info', 'Localizando novo_item na tela...')
                 location = None
                 try:
-                    location = pyautogui.locateOnScreen(img_novo_item, confidence=0.8)
+                    location = pyautogui.locateOnScreen(img_novo_item, confidence=0.9)
                 except Exception as _e:
                     _push('aviso', f'locateOnScreen erro: {_e}')
 
@@ -181,7 +182,7 @@ def _thread_automacao():
                     pyautogui.scroll(-500)
                     time.sleep(0.8)
                     try:
-                        location = pyautogui.locateOnScreen(img_novo_item, confidence=0.8)
+                        location = pyautogui.locateOnScreen(img_novo_item, confidence=0.9)
                     except Exception as _e2:
                         _push('aviso', f'locateOnScreen (retry) erro: {_e2}')
 
@@ -224,7 +225,7 @@ def _thread_automacao():
                 # -- [VERIFICAR] Checa se novo_item ainda está visível ------
                 loc_check = None
                 try:
-                    loc_check = pyautogui.locateOnScreen(img_novo_item, confidence=0.8)
+                    loc_check = pyautogui.locateOnScreen(img_novo_item, confidence=0.9)
                 except Exception:
                     pass
 

@@ -159,12 +159,13 @@ def _thread_automacao():
 
             try:
                 partes = linha.strip().split('|')
-                if len(partes) != 2:
-                    _push('aviso', 'Linha ' + str(i) + ' -- formato invalido (espera nome|preco): ' + linha.strip())
+                if len(partes) != 3:
+                    _push('aviso', 'Linha ' + str(i) + ' -- formato invalido (espera nome|descricao|preco): ' + linha.strip())
                     falhados += 1; continue
 
-                nome  = partes[0].strip()
-                preco = partes[1].strip()
+                nome      = partes[0].strip()
+                descricao = partes[1].strip()
+                preco     = partes[2].strip()
 
                 _push('item', '[' + str(i) + '/' + str(len(linhas)) + ']  ' + nome + '  --  R$ ' + preco)
 
@@ -187,7 +188,8 @@ def _thread_automacao():
                 pyautogui.press('tab')
 
                 # Descricao
-                pyautogui.write('Foto Ilustrativa.')
+                pyperclip.copy(descricao)
+                pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.2)
 
                 if preco == '0':

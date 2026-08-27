@@ -158,14 +158,15 @@ def _thread_automacao():
                 _push('retomada', 'Retomando...')
 
             try:
-                # -- [PARSE] Divide linha em nome | preco -------------------
+                # -- [PARSE] Divide linha em nome | descricao | preco -------
                 partes = linha.strip().split('|')
-                if len(partes) != 2:
-                    _push('aviso', f'Linha {i} inválida (espera nome|preco)'); falhados += 1; continue
+                if len(partes) != 3:
+                    _push('aviso', f'Linha {i} inválida (espera nome|descricao|preco)'); falhados += 1; continue
 
-                nome, preco_txt = partes
-                nome  = nome.strip()
-                preco = preco_txt.strip()
+                nome, descricao, preco_txt = partes
+                nome      = nome.strip()
+                descricao = descricao.strip()
+                preco     = preco_txt.strip()
                 _push('item', f'[{i}/{len(linhas)}] {nome} — R$ {preco}')
 
                 # -- [LOCALIZAR] Encontra imagem novo_item na tela ----------
@@ -198,6 +199,13 @@ def _thread_automacao():
                 pyperclip.copy(nome)
                 pyautogui.click(*state['campo_nome'], duration=0.1)
                 time.sleep(0.2)
+                pyautogui.hotkey('ctrl', 'a')
+                pyautogui.hotkey('ctrl', 'v')
+                time.sleep(0.3)
+
+                # -- [DESCRIÇÃO] 1 tab → cola descrição --------------------
+                pyautogui.press('tab'); time.sleep(0.1)
+                pyperclip.copy(descricao)
                 pyautogui.hotkey('ctrl', 'a')
                 pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.3)

@@ -1,55 +1,20 @@
-Pizza 1/4 Bacon | 0
-Pizza 1/4 Mussarela | 0
-Pizza 1/4 Calabresa | 0
-Pizza 1/4 Calabresa com Catupiry | 0
-Pizza 1/4 Presunto | 0
-Pizza 1/4 Presunto com Catupiry | 0
-Pizza 1/4 Lombo com Milho | 0
-Pizza 1/4 Lombo com Catupiry | 0
-Pizza 1/4 Palmito | 0
-Pizza 1/4 Palmito com Catupiry | 0
-Pizza 1/4 Portuguesa Simples | 0
-Pizza 1/4 Portuguesa Especial | 0
-Pizza 1/4 Moda da Casa | 0
-Pizza 1/4 Salame com Catupiry | 0
-Pizza 1/4 Saborosa | 0
-Pizza 1/4 Champignon | 0
-Pizza 1/4 Americana | 0
-Pizza 1/4 Firenze | 0
-Pizza 1/4 Brócolis I | 0
-Pizza 1/4 Brócolis II | 0
-Pizza 1/4 Margherita | 0
-Pizza 1/4 Calabacon | 0
-Pizza 1/4 Peito de Peru | 0
-Pizza 1/4 Baiana | 0
-Pizza 1/4 Alho e Óleo | 0
-Pizza 1/4 Tropical | 0
-Pizza 1/4 Carne Seca | 0
-Pizza 1/4 Espanhola | 0
-Pizza 1/4 Frango com Catupiry I | 0
-Pizza 1/4 Frango com Catupiry II | 0
-Pizza 1/4 Frango com Catupiry III | 0
-Pizza 1/4 Frango com Bacon | 0
-Pizza 1/4 Frango c/ Creme de Milho | 0
-Pizza 1/4 Frango Palha | 0
-Pizza 1/4 Atum Simples | 0
-Pizza 1/4 Atum com Catupiry | 0
-Pizza 1/4 Atum à Portuguesa | 0
-Pizza 1/4 Atum com Champignon | 0
-Pizza 1/4 Escarola I | 0
-Pizza 1/4 Escarola II | 0
-Pizza 1/4 Napolitana | 0
-Pizza 1/4 Catupiry | 0
-Pizza 1/4 Quatro Queijos | 0
-Pizza 1/4 Milho I | 0
-Pizza 1/4 Milho II | 0
-Pizza 1/4 Milho com Catupiry | 0
-Pizza 1/4 Milho com Catupiry II | 0
-Pizza 1/4 Creme de Milho | 0
-Pizza 1/4 Banana | 0
-Pizza 1/4 Romeu e Julieta | 0
-Pizza 1/4 Brigadeiro | 0
-Pizza 1/4 Prestígio | 0
-Pizza 1/4 Pepperone | 0
-Pizza 1/4 Lomabacaxi | 0
-Pizza 1/4 Hot-Dog | 0
+Pastel Calabresa | 29.90
+Pastel Carne | 29.90
+Pastel Frango | 29.90
+Pastel Queijo | 29.90
+Pastel Pizza | 29.90
+Pastel Calabresa com Queijo | 29.90
+Pastel Frango com Queijo | 29.90
+Pastel Frango com Requeijão | 29.90
+Pastel Frango com Catupiry Original | 36.90
+Pastel 2 Queijos | 29.90
+Pastel 4 Queijos | 29.90
+Pastel Carne Seca | 29.90
+Pastel Costela | 43.90
+Pastel Queijo com Palmito | 32.90
+Pastel Carne com Queijo e Ovo | 32.90
+Pastel Brócolis | 32.90
+Pastel Portuguesa | 34.90
+Pastel Prestígio | 34.90
+Pastel Chocolate | 34.90
+Pastel Beijinho | 34.90

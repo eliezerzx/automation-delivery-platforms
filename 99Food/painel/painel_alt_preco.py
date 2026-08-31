@@ -10,6 +10,7 @@ if root_path not in sys.path:
     sys.path.append(root_path)
 
 CONFIG_PATH = os.path.join(root_path, 'config')
+IMG_PATH    = os.path.join(root_path, 'img')
 
 from nicegui import ui
 
@@ -21,12 +22,9 @@ state = {
     'delay_env':     2.0,
     'delay_exc':     1.0,
     'delay_pos_exc': 1.0,
-    'btn_menu':      (0, 0),
-    'btn_duplicar':  (0, 0),
     'campo_nome':    (0, 0),
     'btn_enviar':    (0, 0),
     'clique_fora':   (0, 0),
-    'btn_excluir':   (0, 0),
     'btn_confirmar': (0, 0),
     'inicio_tempo':  None,
     'tempo_pausado': 0.0,
@@ -35,12 +33,9 @@ state = {
 }
 
 COORD_KEYS = [
-    ('btn_menu',      'Botão Menu'),
-    ('btn_duplicar',  'Botão Duplicar'),
     ('campo_nome',    'Campo Nome'),
     ('btn_enviar',    'Botão Enviar'),
     ('clique_fora',   'Clique Fora (após enviar)'),
-    ('btn_excluir',   'Botão Excluir'),
     ('btn_confirmar', 'Confirmar Exclusão'),
 ]
 
@@ -113,12 +108,41 @@ def _sleep_cancelavel(segundos):
         time.sleep(0.1)
     return True
 
+# ── Helpers de imagem ─────────────────────────────────────────────────────
+def _clicar_imagem(pyautogui, img_path, descricao, confidence=0.8, scroll=0):
+    """Localiza imagem na tela e clica. Retorna True se clicou, False se não achou."""
+    try:
+        loc = pyautogui.locateOnScreen(img_path, confidence=confidence)
+        if loc:
+            cx, cy = pyautogui.center(loc)
+            pyautogui.click(cx, cy)
+            return True
+    except Exception as e:
+        _push('aviso', f'locateOnScreen ({descricao}): {e}')
+    if scroll != 0:
+        pyautogui.scroll(scroll)
+        time.sleep(0.5)
+        try:
+            loc = pyautogui.locateOnScreen(img_path, confidence=confidence)
+            if loc:
+                cx, cy = pyautogui.center(loc)
+                pyautogui.click(cx, cy)
+                return True
+        except Exception:
+            pass
+    _push('erro', f'Imagem não encontrada: {descricao}')
+    return False
+
 # ── Thread de automação ────────────────────────────────────────────────────
 def _thread_automacao():
     try:
         import pyautogui, pyperclip
         pyautogui.PAUSE = 0.25
         pyautogui.FAILSAFE = False
+
+        img_menu     = os.path.join(IMG_PATH, 'menu.png')
+        img_duplicar = os.path.join(IMG_PATH, 'duplicar.png')
+        img_excluir  = os.path.join(IMG_PATH, 'excluir.png')
 
         _push('separador')
         _push('inicio', f'Iniciando — preço: R$ {state["preco"]}')
@@ -136,14 +160,14 @@ def _thread_automacao():
                     _push('parada', 'Parado durante pausa.'); break
                 _push('retomada', 'Retomando...')
 
-            # -- [MENU] Abre menu do item ----------------------------------
+            # -- [MENU] Abre menu do item via imagem -----------------------
             _push('info', 'Abrindo menu...')
-            pyautogui.click(*state['btn_menu'], duration=0.1)
+            if not _clicar_imagem(pyautogui, img_menu, 'menu'): break
             time.sleep(0.5)
 
-            # -- [DUPLICAR] Clica em duplicar ------------------------------
+            # -- [DUPLICAR] Clica em duplicar via imagem -------------------
             _push('info', 'Duplicando item...')
-            pyautogui.click(*state['btn_duplicar'], duration=0.1)
+            if not _clicar_imagem(pyautogui, img_duplicar, 'duplicar'): break
             if not _sleep_cancelavel(state['delay_dup']):
                 _push('parada', 'Parado no delay.'); break
 
@@ -176,7 +200,11 @@ def _thread_automacao():
             pyautogui.hotkey('ctrl', 'a')
             pyperclip.copy(state['preco'])
             pyautogui.hotkey('ctrl', 'v')
-            time.sleep(0.3)
+            time.sleep(0.5)
+            pyautogui.press('tab'); time.sleep(0.1)
+            pyautogui.write('30')
+            pyautogui.press('enter'); time.sleep(0.1)
+            time.sleep(0.5)
 
             # -- [ENVIAR] Clica enviar e aguarda ---------------------------
             _push('info', 'Enviando...')
@@ -186,7 +214,7 @@ def _thread_automacao():
 
             # -- [MENU PRÉ-FORA] Abre menu para forçar carregamento -------
             _push('info', 'Abrindo menu para carregar...')
-            pyautogui.click(*state['btn_menu'], duration=0.1)
+            if not _clicar_imagem(pyautogui, img_menu, 'menu (pré-fora)'): break
             time.sleep(0.5)
 
             # -- [CLIQUE FORA] Clica fora para fechar menu e carregar -----
@@ -196,12 +224,12 @@ def _thread_automacao():
 
             # -- [MENU EXCLUIR] Abre menu novamente para excluir ----------
             _push('info', 'Abrindo menu para excluir...')
-            pyautogui.click(*state['btn_menu'], duration=0.1)
+            if not _clicar_imagem(pyautogui, img_menu, 'menu (excluir)'): break
             time.sleep(0.5)
 
-            # -- [EXCLUIR] Clica excluir -----------------------------------
+            # -- [EXCLUIR] Clica excluir via imagem ------------------------
             _push('info', 'Excluindo original...')
-            pyautogui.click(*state['btn_excluir'], duration=0.1)
+            if not _clicar_imagem(pyautogui, img_excluir, 'excluir'): break
             time.sleep(0.5)
 
             # -- [DELAY EXCLUSÃO] Aguarda modal de confirmação carregar ----

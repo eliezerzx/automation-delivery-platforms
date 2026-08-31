@@ -189,8 +189,8 @@ def _thread_automacao():
                 pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.5)
 
-                # -- [DESCRIÇÃO] 2 tabs → preenche descrição ---------------
-                for _ in range(2): pyautogui.press('tab'); time.sleep(0.1)
+                # -- [DESCRIÇÃO] 3 tabs → preenche descrição ---------------
+                for _ in range(3): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.hotkey('ctrl', 'a'); pyautogui.press('backspace')
                 pyperclip.copy(descricao); pyautogui.hotkey('ctrl', 'v'); time.sleep(0.2)
 

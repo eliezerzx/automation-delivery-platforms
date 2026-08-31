@@ -1,9 +1,8 @@
-Marmita Executiva Empanado de Frango com Creme de Milho | Acompanha empanado de frango, creme de milho, arroz e feijão. | 59,90
-Marmita Executiva Carne Cozida com Legumes + Farofa | Acompanha carne cozida com legumes, arroz, feijão, farofa. | 59,90
-Marmita Executiva Strogonoff de Frango + Batata Palha | Acompanha strogonoff de frango, batata palha, arroz e feijão. | 59,90
-Marmita Executiva Linguiça + Ovo Frito + Feijão preto + Farofa | Acompanha linguiça, ovo frito, farofa e feijão preto com bacon e cebola. | 59,90
-Marmita Executiva Vaca Atolada + Farofa | Acompanha vaca atolada com costela bovina e mandioca, arroz, feijão, farofa. | 59,90
-Marmita Executiva Frango Assado + Farofa + Macarrão | Acompanha frango assado, arroz, feijão, farofa e macarrão ao alho e óleo. | 59,90
-Marmita Executiva Bisteca Acebolada + Farofa + Macarrão | Acompanha bisteca acebolada, arroz, feijão, farofa e macarrão alho. | 59,90
-Marmita Executiva Frango Cozido com Legumes + Farofa | Acompanha frango cozido com batata e cenoura, arroz, feijão, farofa. | 59,90
-Marmita Executiva Pernil com Polenta + Farofa | Acompanha pernil, polenta, arroz, feijão, farofa. Foto Ilustrativa | 59,90
+Duplo Supremo Bacon Salada Bem Bom | Pão Brioche, 2 Hambúrguer Caseiro de 150gr, Queijo Prata, Bacon, Alface, Tomate. | 79,90
+Duplo Supremo Bacon Bem Bom | Pão Brioche, 2 Hambúrguer Caseiro de 150gr, Queijo Prata, Bacon, Maionese. | 71,90
+Duplo Supremo Salada Bem Bom | Pão Brioche, 2 Hambúrguer Caseiro de 150gr cada, Queijo Prata, Alface, Tomate. | 67,90
+Duplo supremo Bem Bom | Pão Brioche, 2 Hambúrguer caseiro de 150gr cada, Queijo Prata, Maionese. | 64,90
+Clássico Bacon Salada Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prato, Alface, Tomate. | 72,90
+Clássico Bacon Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prato, Bacon, Maionese. | 58,90
+Clássico Salada Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prata, Alface, Tomate. | 51,90
+Clássico Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prato, Maionese. | 45,90

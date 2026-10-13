@@ -158,15 +158,14 @@ def _thread_automacao():
                 _push('retomada', 'Retomando...')
 
             try:
-                # -- [PARSE] Divide linha em nome | descricao | preco -------
+                # -- [PARSE] Divide linha em nome | preco -------------------
                 partes = linha.strip().split('|')
-                if len(partes) != 3:
-                    _push('aviso', f'Linha {i} inválida (espera nome|descricao|preco)'); falhados += 1; continue
+                if len(partes) != 2:
+                    _push('aviso', f'Linha {i} inválida (espera nome|preco)'); falhados += 1; continue
 
-                nome, descricao, preco_txt = partes
-                nome      = nome.strip()
-                descricao = descricao.strip()
-                preco     = preco_txt.strip()
+                nome, preco_txt = partes
+                nome  = nome.strip()
+                preco = preco_txt.strip()
                 _push('item', f'[{i}/{len(linhas)}] {nome} — R$ {preco}')
 
                 # -- [LOCALIZAR] Encontra imagem novo_item na tela ----------
@@ -203,12 +202,6 @@ def _thread_automacao():
                 pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.3)
 
-                # -- [DESCRIÇÃO] 1 tab → cola descrição --------------------
-                pyautogui.press('tab'); time.sleep(0.1)
-                pyperclip.copy(descricao)
-                pyautogui.hotkey('ctrl', 'a')
-                pyautogui.hotkey('ctrl', 'v')
-                time.sleep(0.3)
 
                 # -- [NAVEGAÇÃO] 2 tabs → enter → seta baixo → enter -------
                 for _ in range(2): pyautogui.press('tab'); time.sleep(0.1)
@@ -219,8 +212,8 @@ def _thread_automacao():
                 pyautogui.press('enter')
                 time.sleep(0.2)
 
-                # -- [PREÇO] 1 tab → digita o preço -------------------------
-                pyautogui.press('tab'); time.sleep(0.1)
+                # -- [PREÇO] 2 tab → digita o preço -------------------------
+                for _ in range(2): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.typewrite(preco, interval=0.05)
 
                 # -- [CONFIRMAR] Clica botão confirmar ----------------------

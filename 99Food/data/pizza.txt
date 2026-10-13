@@ -1,8 +1,15 @@
-Duplo Supremo Bacon Salada Bem Bom | Pão Brioche, 2 Hambúrguer Caseiro de 150gr, Queijo Prata, Bacon, Alface, Tomate. | 79,90
-Duplo Supremo Bacon Bem Bom | Pão Brioche, 2 Hambúrguer Caseiro de 150gr, Queijo Prata, Bacon, Maionese. | 71,90
-Duplo Supremo Salada Bem Bom | Pão Brioche, 2 Hambúrguer Caseiro de 150gr cada, Queijo Prata, Alface, Tomate. | 67,90
-Duplo supremo Bem Bom | Pão Brioche, 2 Hambúrguer caseiro de 150gr cada, Queijo Prata, Maionese. | 64,90
-Clássico Bacon Salada Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prato, Alface, Tomate. | 72,90
-Clássico Bacon Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prato, Bacon, Maionese. | 58,90
-Clássico Salada Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prata, Alface, Tomate. | 51,90
-Clássico Bem Bom | Pão Brioche, Hambúrguer Caseiro 150g, Queijo Prato, Maionese. | 45,90
+Pizza Chocolate ao Leite - Broto (4 Pedaços) | Chocolate ao leite | 89.90
+Pizza Chocolate Com Granulado - Broto (4 Pedaços) | Chocolate e granulado | 89.90
+Pizza Chocolate Com Morango - Broto (4 Pedaços) | Chocolate e morango | 89.90
+Pizza Chocolate Com Banana - Broto (4 Pedaços) | Chocolate e banana | 89.90
+Pizza Chocolate Branco Com Morango - Broto (4 Pedaços) | Chocolate branco e morango | 89.90
+Pizza Banana Com Leite Condensado - Broto (4 Pedaços) | Banana e leite condensado | 89.90
+Pizza Banana Com Canela e Açúcar - Broto (4 Pedaços) | Banana, canela e açúcar | 89.90
+Pizza Romeu e Julieta - Broto (4 Pedaços) | Queijo e goiabada | 89.90
+Pizza Chocolate Preto e Branco - Broto (4 Pedaços) | Chocolate preto e branco | 89.90
+Pizza Nutella Com M&Ms - Broto (4 Pedaços) | Nutella e M&M's | 99.90
+Pizza Nutella Com Tortuguita - Broto (4 Pedaços) | Nutella e tortuguita | 99.90
+Pizza Nutella Com Kit Kat - Broto (4 Pedaços) | Nutella e Kit Kat | 99.90
+Pizza Nutella Com Sonho de Valsa - Broto (4 Pedaços) | Nutella e Sonho de Valsa | 99.90
+Pizza Nutella Ouro Branco - Broto (4 Pedaços) | Nutella e Ouro Branco | 99.90
+Pizza Nutella Com Coco Ralado - Broto (4 Pedaços) | Nutella e coco ralado | 99.90

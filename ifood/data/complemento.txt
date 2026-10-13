@@ -1,16 +1,46 @@
-Esfiha Mussarela | Foto Ilustrativa | 0
-Esfiha Alho | Foto Ilustrativa | 0
-Esfiha Bacon | Foto Ilustrativa | 0
-Esfiha Presunto | Foto Ilustrativa | 0
-Esfiha Carne | Foto Ilustrativa | 0
-Esfiha Calabresa | Foto Ilustrativa | 0
-Esfiha Calabresa Moída | Foto Ilustrativa | 0
-Esfiha Brócolis | Foto Ilustrativa | 0
-Esfiha Napolitana | Foto Ilustrativa | 0
-Esfiha Milho | Foto Ilustrativa | 0
-Esfiha Lombo Canadense | Foto Ilustrativa | 0
-Esfiha Atum | Foto Ilustrativa | 0
-Esfiha Brócolis com Bacon | Foto Ilustrativa | 0
-Esfiha Carne Seca | Foto Ilustrativa | 0
-Esfiha Dois Queijos | Foto Ilustrativa | 0
-Esfiha Frango com Requeijão | Foto Ilustrativa | 0
+Pizza 1/2 Calabresa | calabresa, cebola e azeitonas. | 0
+Pizza 1/2 Mista | presunto, mussarela e azeitonas. | 0
+Pizza 1/2 Mussarela | mussarela. | 0
+Pizza 1/2 Escarola | escarola, bacon, mussarela e azeitonas. | 0
+Pizza 1/2 Milho Verde | milho, mussarela e azeitonas. | 0
+Pizza 1/2 Napolitana | mussarela, tomate, parmesão e azeitonas. | 0
+Pizza 1/2 Americana | frango, mussarela e azeitonas. | 0
+Pizza 1/2 Calafrango | frango, calabresa, mussarela e azeitonas. | 0
+Pizza 1/2 Catupiry ao Alho | Catupiry Original, alho frito, tomate e azeitonas. | 0
+Pizza 1/2 Frango Catupiry | frango, Catupiry Original e azeitonas. | 0
+Pizza 1/2 Luanda | mussarela, presunto, Catupiry Original e azeitonas. | 0
+Pizza 1/2 4 Queijos | mussarela, provolone, gorgonzola, Catupiry Original e azeitonas. | 0
+Pizza 1/2 Brócolis | brócolis, bacon, mussarela e azeitonas. | 0
+Pizza 1/2 Portuguesa | presunto, ervilha, ovo, cebola, mussarela e azeitonas. | 0
+Pizza 1/2 Toscana | presunto, ovos, bacon, Catupiry Original e azeitonas. | 0
+Pizza 1/2 2 Queijos | mussarela, Catupiry Original e azeitonas. | 0
+Pizza 1/2 Alho | mussarela, alho e azeitonas. | 0
+Pizza 1/2 Bacon | mussarela, bacon e azeitonas. | 0
+Pizza 1/2 Caipira | frango, milho, mussarela, tomate e azeitonas. | 0
+Pizza 1/2 Calamussa | calabresa, cebola, mussarela e azeitonas. | 0
+Pizza 1/2 Calapiry | calabresa, cebola, requeijão e azeitonas. | 0
+Pizza 1/2 Canadense | lombo, Catupiry Original, tomate e azeitonas. | 0
+Pizza 1/2 Capri | frango, palmito, mussarela e azeitonas. | 0
+Pizza 1/2 Lombo | lombo, mussarela, tomate e azeitonas. | 0
+Pizza 1/2 Marguerita | mussarela, ricota, tomate, manjericão e azeitonas. | 0
+Pizza 1/2 Mineirinha | frango, brócolis, mussarela, tomate e azeitonas. | 0
+Pizza 1/2 Palmito | palmito, mussarela e azeitonas. | 0
+Pizza 1/2 Tropical | mussarela, ovo, milho, bacon, cebola e azeitonas. | 0
+Pizza 1/2 Vegetariana | brócolis, ervilha, milho, palmito, mussarela, tomate e azeitonas. | 0
+Pizza 1/2 Champignon | champignon, bacon, mussarela e azeitonas. | 0
+Pizza 1/2 Italiana | presunto, champignon, mussarela e azeitonas. | 0
+Pizza 1/2 Peperone | peperone, mussarela e azeitonas. | 0
+Pizza 1/2 À Moda da Casa | presunto, calabresa, ovos, milho, cebola, mussarela, frango e bacon. | 0
+Pizza 1/2 Tomate Seco | tomate seco, mussarela, rúcula e azeitonas. | 0
+Pizza 1/2 Atum | atum, mussarela, tomate, cebola e azeitonas. | 0
+Pizza 1/2 Brasileira | presunto, calabresa, frango, milho, mussarela e azeitonas. | 0
+Pizza 1/2 Calabacon | calabresa, bacon, cebola, mussarela e azeitonas. | 0
+Pizza 1/2 Calabresa Premium | calabresa, ovo, bacon, cebola, mussarela, Catupiry Original e azeitonas. | 0
+Pizza 1/2 Banana | banana, mussarela, açúcar e canela. | 0
+Pizza 1/2 Chocolate com Confete | chocolate ao leite e confete. | 0
+Pizza 1/2 Prestígio | chocolate ao leite e coco ralado. | 0
+Pizza 1/2 Brigadeiro | chocolate ao leite e granulado. | 0
+Pizza 1/2 Chocolate com Morango | chocolate ao leite e morango. | 0
+Pizza 1/2 Chocolate com Banana | banana, açúcar, canela e chocolate ao leite. | 0
+Pizza 1/2 Sonho de Valsa | chocolate ao leite e bombom Sonho de Valsa em pedaços. | 0
+Pizza 1/2 Oreo | chocolate ao leite e bolacha Oreo em pedaços. | 0

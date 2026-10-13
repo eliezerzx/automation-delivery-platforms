@@ -1,20 +1,16 @@
-Pastel Calabresa | 29.90
-Pastel Carne | 29.90
-Pastel Frango | 29.90
-Pastel Queijo | 29.90
-Pastel Pizza | 29.90
-Pastel Calabresa com Queijo | 29.90
-Pastel Frango com Queijo | 29.90
-Pastel Frango com Requeijão | 29.90
-Pastel Frango com Catupiry Original | 36.90
-Pastel 2 Queijos | 29.90
-Pastel 4 Queijos | 29.90
-Pastel Carne Seca | 29.90
-Pastel Costela | 43.90
-Pastel Queijo com Palmito | 32.90
-Pastel Carne com Queijo e Ovo | 32.90
-Pastel Brócolis | 32.90
-Pastel Portuguesa | 34.90
-Pastel Prestígio | 34.90
-Pastel Chocolate | 34.90
-Pastel Beijinho | 34.90
+Esfiha Mussarela | 0
+Esfiha Alho | 0
+Esfiha Bacon | 0
+Esfiha Presunto | 0
+Esfiha Carne | 0
+Esfiha Calabresa | 0
+Esfiha Calabresa Moída | 0
+Esfiha Brócolis | 0
+Esfiha Napolitana | 0
+Esfiha Milho | 0
+Esfiha Lombo Canadense | 0
+Esfiha Atum | 0
+Esfiha Brócolis com Bacon | 0
+Esfiha Carne Seca | 0
+Esfiha Dois Queijos | 0
+Esfiha Frango com Requeijão | 0

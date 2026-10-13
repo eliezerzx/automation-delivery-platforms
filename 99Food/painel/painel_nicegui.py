@@ -10,6 +10,7 @@ if root_path not in sys.path:
 
 DATA_PATH   = os.path.join(root_path, 'data')
 CONFIG_PATH = os.path.join(root_path, 'config')
+IMG_PATH    = os.path.join(root_path, 'img')
 
 from nicegui import ui
 
@@ -19,8 +20,6 @@ state = {
     'arquivo':       os.path.join(DATA_PATH, 'pizza.txt'),
     'delay_dup':     2.0,
     'delay_env':     3.0,
-    'menu_opcoes':   (1764, 655),
-    'btn_duplicar':  (1716, 835),
     'campo_nome':    (310,  545),
     'btn_enviar':    (304,  999),
     'clique_fora':   (0,    0),
@@ -32,11 +31,9 @@ state = {
 }
 
 COORD_KEYS = [
-    ('menu_opcoes',  'Menu Opções'),
-    ('btn_duplicar', 'Botão Duplicar'),
-    ('campo_nome',   'Campo Nome'),
-    ('btn_enviar',   'Botão Enviar'),
-    ('clique_fora',  'Clique Fora (após enviar)'),
+    ('campo_nome',  'Campo Nome'),
+    ('btn_enviar',  'Botão Enviar'),
+    ('clique_fora', 'Clique Fora (após enviar)'),
 ]
 
 def _carregar_coordenadas():
@@ -59,6 +56,29 @@ def _salvar_coordenadas():
         pass
 
 _carregar_coordenadas()
+
+def _clicar_imagem(pyautogui, img_path, descricao, confidence=0.8, scroll=0):
+    try:
+        loc = pyautogui.locateOnScreen(img_path, confidence=confidence)
+        if loc:
+            cx, cy = pyautogui.center(loc)
+            pyautogui.click(cx, cy)
+            return True
+    except Exception as e:
+        _push('aviso', f'locateOnScreen ({descricao}): {e}')
+    if scroll != 0:
+        pyautogui.scroll(scroll)
+        time.sleep(0.5)
+        try:
+            loc = pyautogui.locateOnScreen(img_path, confidence=confidence)
+            if loc:
+                cx, cy = pyautogui.center(loc)
+                pyautogui.click(cx, cy)
+                return True
+        except Exception:
+            pass
+    _push('erro', f'Imagem não encontrada: {descricao}')
+    return False
 
 stop_event  = threading.Event()
 pause_event = threading.Event()
@@ -133,6 +153,8 @@ def _thread_automacao():
         import pyautogui, pyperclip
         pyautogui.PAUSE = 0.3
         pyautogui.FAILSAFE = False
+        img_menu     = os.path.join(IMG_PATH, 'menu.png')
+        img_duplicar = os.path.join(IMG_PATH, 'duplicar.png')
 
         # -- [INIT] Lê o arquivo e conta os itens ---------------------------
         arquivo = state['arquivo']
@@ -173,14 +195,15 @@ def _thread_automacao():
 
                 # -- [DUPLICAR] Abre menu (3 pontos) e clica em Duplicar ---
                 pyautogui.press('home')
-                pyautogui.click(*state['menu_opcoes'], duration=0.1); time.sleep(0.2)
-                pyautogui.click(*state['btn_duplicar'], duration=0.1)
+                if not _clicar_imagem(pyautogui, img_menu, 'menu'): falhados += 1; continue
+                time.sleep(0.2)
+                if not _clicar_imagem(pyautogui, img_duplicar, 'duplicar'): falhados += 1; continue
                 if not _sleep_cancelavel(state['delay_dup']):
                     _push('parada', 'Parado no delay duplicação.'); break
 
                 # -- [COMBO] Define produto como combo (descomente p/ ativar)
-                pyautogui.click(879, 358);
-                time.sleep(1.0)
+                #pyautogui.click(879, 358);
+                #time.sleep(1.0)
 
                 # -- [NOME] Cola nome no campo via clipboard ----------------
                 pyperclip.copy(nome)
@@ -189,13 +212,13 @@ def _thread_automacao():
                 pyautogui.hotkey('ctrl', 'v')
                 time.sleep(0.5)
 
-                # -- [DESCRIÇÃO] 3 tabs → preenche descrição ---------------
-                for _ in range(3): pyautogui.press('tab'); time.sleep(0.1)
+                # -- [DESCRIÇÃO] 2 tabs → preenche descrição ---------------
+                for _ in range(2): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.hotkey('ctrl', 'a'); pyautogui.press('backspace')
                 pyperclip.copy(descricao); pyautogui.hotkey('ctrl', 'v'); time.sleep(0.2)
 
                 # -- [PREÇO] 5 tabs → preenche preço ----------------------
-                for _ in range(5): pyautogui.press('tab'); time.sleep(0.1)
+                for _ in range(6): pyautogui.press('tab'); time.sleep(0.1)
                 pyautogui.hotkey('ctrl', 'a'); pyautogui.press('backspace')
                 pyperclip.copy(f'{preco:.2f}'); pyautogui.hotkey('ctrl', 'v'); time.sleep(0.5)
 
@@ -206,7 +229,7 @@ def _thread_automacao():
 
                 # -- [CARREGAR] Abre menu → clica fora → aguarda carregar --
                 _push('info', 'Abrindo menu para carregar...')
-                pyautogui.click(*state['menu_opcoes'], duration=0.1)
+                _clicar_imagem(pyautogui, img_menu, 'menu (carregar)')
                 time.sleep(0.5)
                 _push('info', 'Clicando fora para carregar página...')
                 pyautogui.click(*state['clique_fora'], duration=0.1)
